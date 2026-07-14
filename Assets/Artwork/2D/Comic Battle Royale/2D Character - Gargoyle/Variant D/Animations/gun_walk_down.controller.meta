@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 579e0df6196c425a87cd969366d5f511
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 182851
+  packageName: 2D Character - Gargoyle
+  packageVersion: 2.0
+  assetPath: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Gargoyle/Variant
+    D/Animations/gun_walk_down.controller
+  uploadId: 624186

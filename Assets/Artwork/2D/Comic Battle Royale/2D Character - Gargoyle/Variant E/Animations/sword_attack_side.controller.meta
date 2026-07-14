@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: be07b7f7202a405cb0d4555299b3e6bb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 182851
+  packageName: 2D Character - Gargoyle
+  packageVersion: 2.0
+  assetPath: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Gargoyle/Variant
+    E/Animations/sword_attack_side.controller
+  uploadId: 624186

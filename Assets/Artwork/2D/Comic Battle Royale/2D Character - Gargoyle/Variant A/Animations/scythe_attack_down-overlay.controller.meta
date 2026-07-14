@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e12c12330a754516a36e5f586785f298
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 182851
+  packageName: 2D Character - Gargoyle
+  packageVersion: 2.0
+  assetPath: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Gargoyle/Variant
+    A/Animations/scythe_attack_down-overlay.controller
+  uploadId: 624186

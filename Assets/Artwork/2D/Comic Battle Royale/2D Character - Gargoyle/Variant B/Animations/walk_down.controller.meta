@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 734d394164f24a098877f4d95350ba45
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 182851
+  packageName: 2D Character - Gargoyle
+  packageVersion: 2.0
+  assetPath: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Gargoyle/Variant
+    B/Animations/walk_down.controller
+  uploadId: 624186

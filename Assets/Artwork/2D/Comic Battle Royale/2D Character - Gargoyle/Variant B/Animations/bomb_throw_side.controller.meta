@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 750db67a74b6453693c21e3155ef4015
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 182851
+  packageName: 2D Character - Gargoyle
+  packageVersion: 2.0
+  assetPath: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Gargoyle/Variant
+    B/Animations/bomb_throw_side.controller
+  uploadId: 624186

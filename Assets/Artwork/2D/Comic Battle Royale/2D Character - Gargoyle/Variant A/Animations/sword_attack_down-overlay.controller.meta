@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e2e1973856b94392989aea2f7bb21539
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 182851
+  packageName: 2D Character - Gargoyle
+  packageVersion: 2.0
+  assetPath: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Gargoyle/Variant
+    A/Animations/sword_attack_down-overlay.controller
+  uploadId: 624186

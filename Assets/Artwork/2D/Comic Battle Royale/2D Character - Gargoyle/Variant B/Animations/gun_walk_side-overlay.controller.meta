@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4acc7e05d412408697463a57485b68b0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 182851
+  packageName: 2D Character - Gargoyle
+  packageVersion: 2.0
+  assetPath: Assets/COPY SPRIGHT/Comic Battle Royale/2D Character - Gargoyle/Variant
+    B/Animations/gun_walk_side-overlay.controller
+  uploadId: 624186
