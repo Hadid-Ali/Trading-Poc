@@ -1,0 +1,433 @@
+{
+  "main_menu": {
+    "source_file": "ninja_survivor_game_menu_screen.png",
+    "elements": {
+      "coin_bar": {
+        "file": "main_menu/coin_bar.png",
+        "crop_box_xyxy": [
+          58,
+          26,
+          395,
+          132
+        ],
+        "size": [
+          337,
+          106
+        ]
+      },
+      "gem_bar": {
+        "file": "main_menu/gem_bar.png",
+        "crop_box_xyxy": [
+          691,
+          26,
+          969,
+          131
+        ],
+        "size": [
+          278,
+          105
+        ]
+      },
+      "top_settings_button": {
+        "file": "main_menu/top_settings_button.png",
+        "crop_box_xyxy": [
+          965,
+          24,
+          1065,
+          129
+        ],
+        "size": [
+          100,
+          105
+        ]
+      },
+      "title_logo": {
+        "file": "main_menu/title_logo.png",
+        "crop_box_xyxy": [
+          170,
+          135,
+          914,
+          524
+        ],
+        "size": [
+          744,
+          389
+        ]
+      },
+      "play_button": {
+        "file": "main_menu/play_button.png",
+        "crop_box_xyxy": [
+          293,
+          787,
+          797,
+          968
+        ],
+        "size": [
+          504,
+          181
+        ]
+      },
+      "upgrades_button": {
+        "file": "main_menu/upgrades_button.png",
+        "crop_box_xyxy": [
+          295,
+          987,
+          798,
+          1130
+        ],
+        "size": [
+          503,
+          143
+        ]
+      },
+      "settings_button": {
+        "file": "main_menu/settings_button.png",
+        "crop_box_xyxy": [
+          295,
+          1139,
+          798,
+          1280
+        ],
+        "size": [
+          503,
+          141
+        ]
+      },
+      "quit_button": {
+        "file": "main_menu/quit_button.png",
+        "crop_box_xyxy": [
+          295,
+          1288,
+          798,
+          1417
+        ],
+        "size": [
+          503,
+          129
+        ]
+      },
+      "daily_reward_button": {
+        "file": "main_menu/daily_reward_button.png",
+        "crop_box_xyxy": [
+          75,
+          1220,
+          209,
+          1422
+        ],
+        "size": [
+          134,
+          202
+        ]
+      },
+      "quests_button": {
+        "file": "main_menu/quests_button.png",
+        "crop_box_xyxy": [
+          870,
+          1220,
+          1011,
+          1422
+        ],
+        "size": [
+          141,
+          202
+        ]
+      }
+    }
+  },
+  "player_died_menu": {
+    "source_file": "game_over_ninja_defeat_screen.png",
+    "elements": {
+      "coin_bar": {
+        "file": "player_died_menu/coin_bar.png",
+        "crop_box_xyxy": [
+          27,
+          24,
+          342,
+          127
+        ],
+        "size": [
+          315,
+          103
+        ]
+      },
+      "gem_bar": {
+        "file": "player_died_menu/gem_bar.png",
+        "crop_box_xyxy": [
+          702,
+          24,
+          973,
+          127
+        ],
+        "size": [
+          271,
+          103
+        ]
+      },
+      "you_died_banner": {
+        "file": "player_died_menu/you_died_banner.png",
+        "crop_box_xyxy": [
+          226,
+          376,
+          876,
+          545
+        ],
+        "size": [
+          650,
+          169
+        ]
+      },
+      "stats_panel": {
+        "file": "player_died_menu/stats_panel.png",
+        "crop_box_xyxy": [
+          247,
+          544,
+          842,
+          773
+        ],
+        "size": [
+          595,
+          229
+        ]
+      },
+      "reward_panel": {
+        "file": "player_died_menu/reward_panel.png",
+        "crop_box_xyxy": [
+          263,
+          779,
+          826,
+          957
+        ],
+        "size": [
+          563,
+          178
+        ]
+      },
+      "revive_button": {
+        "file": "player_died_menu/revive_button.png",
+        "crop_box_xyxy": [
+          275,
+          1007,
+          819,
+          1148
+        ],
+        "size": [
+          544,
+          141
+        ]
+      },
+      "revive_x1_badge": {
+        "file": "player_died_menu/revive_x1_badge.png",
+        "crop_box_xyxy": [
+          719,
+          1002,
+          827,
+          1110
+        ],
+        "size": [
+          108,
+          108
+        ]
+      },
+      "retry_button": {
+        "file": "player_died_menu/retry_button.png",
+        "crop_box_xyxy": [
+          274,
+          1167,
+          818,
+          1301
+        ],
+        "size": [
+          544,
+          134
+        ]
+      },
+      "home_button": {
+        "file": "player_died_menu/home_button.png",
+        "crop_box_xyxy": [
+          275,
+          1325,
+          818,
+          1419
+        ],
+        "size": [
+          543,
+          94
+        ]
+      },
+      "main_modal_panel": {
+        "file": "player_died_menu/main_modal_panel.png",
+        "crop_box_xyxy": [
+          162,
+          372,
+          920,
+          1437
+        ],
+        "size": [
+          758,
+          1065
+        ]
+      }
+    }
+  },
+  "gameplay_hud": {
+    "source_file": "ninja_versus_demons_in_vibrant_battle.png",
+    "elements": {
+      "coin_bar": {
+        "file": "gameplay_hud/coin_bar.png",
+        "crop_box_xyxy": [
+          27,
+          24,
+          344,
+          127
+        ],
+        "size": [
+          317,
+          103
+        ]
+      },
+      "gem_bar": {
+        "file": "gameplay_hud/gem_bar.png",
+        "crop_box_xyxy": [
+          702,
+          24,
+          974,
+          127
+        ],
+        "size": [
+          272,
+          103
+        ]
+      },
+      "pause_button": {
+        "file": "gameplay_hud/pause_button.png",
+        "crop_box_xyxy": [
+          978,
+          24,
+          1062,
+          118
+        ],
+        "size": [
+          84,
+          94
+        ]
+      },
+      "level_label": {
+        "file": "gameplay_hud/level_label.png",
+        "crop_box_xyxy": [
+          462,
+          23,
+          628,
+          85
+        ],
+        "size": [
+          166,
+          62
+        ]
+      },
+      "xp_progress_bar": {
+        "file": "gameplay_hud/xp_progress_bar.png",
+        "crop_box_xyxy": [
+          414,
+          88,
+          746,
+          156
+        ],
+        "size": [
+          332,
+          68
+        ]
+      },
+      "xp_label": {
+        "file": "gameplay_hud/xp_label.png",
+        "crop_box_xyxy": [
+          479,
+          147,
+          609,
+          235
+        ],
+        "size": [
+          130,
+          88
+        ]
+      },
+      "health_panel": {
+        "file": "gameplay_hud/health_panel.png",
+        "crop_box_xyxy": [
+          48,
+          164,
+          431,
+          315
+        ],
+        "size": [
+          383,
+          151
+        ]
+      },
+      "joystick": {
+        "file": "gameplay_hud/joystick.png",
+        "crop_box_xyxy": [
+          38,
+          1160,
+          334,
+          1443
+        ],
+        "size": [
+          296,
+          283
+        ]
+      },
+      "ability_shuriken": {
+        "file": "gameplay_hud/ability_shuriken.png",
+        "crop_box_xyxy": [
+          365,
+          1214,
+          547,
+          1418
+        ],
+        "size": [
+          182,
+          204
+        ]
+      },
+      "ability_whirlwind": {
+        "file": "gameplay_hud/ability_whirlwind.png",
+        "crop_box_xyxy": [
+          523,
+          1214,
+          706,
+          1418
+        ],
+        "size": [
+          183,
+          204
+        ]
+      },
+      "ability_sword": {
+        "file": "gameplay_hud/ability_sword.png",
+        "crop_box_xyxy": [
+          687,
+          1214,
+          875,
+          1418
+        ],
+        "size": [
+          188,
+          204
+        ]
+      },
+      "ultimate_button": {
+        "file": "gameplay_hud/ultimate_button.png",
+        "crop_box_xyxy": [
+          825,
+          1088,
+          1079,
+          1421
+        ],
+        "size": [
+          254,
+          333
+        ]
+      }
+    }
+  }
+}

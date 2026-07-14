@@ -1,0 +1,42 @@
+{
+  "Bull_01_Thumbs_Up.png": {
+    "size": [
+      558,
+      612
+    ],
+    "format": "RGBA PNG",
+    "transparent_background": true
+  },
+  "Bull_02_Holding_Banner.png": {
+    "size": [
+      503,
+      407
+    ],
+    "format": "RGBA PNG",
+    "transparent_background": true
+  },
+  "Bull_03_Holding_Panel.png": {
+    "size": [
+      353,
+      347
+    ],
+    "format": "RGBA PNG",
+    "transparent_background": true
+  },
+  "Bull_04_Coin_Celebration.png": {
+    "size": [
+      343,
+      340
+    ],
+    "format": "RGBA PNG",
+    "transparent_background": true
+  },
+  "Bull_05_Trophy_Guide.png": {
+    "size": [
+      358,
+      348
+    ],
+    "format": "RGBA PNG",
+    "transparent_background": true
+  }
+}
