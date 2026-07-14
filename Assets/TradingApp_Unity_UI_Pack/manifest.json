@@ -1,0 +1,20 @@
+{
+  "source_resolution": [
+    1536,
+    1024
+  ],
+  "screens": [
+    "01_Onboarding.png",
+    "02_Dashboard.png",
+    "03_Trade.png",
+    "04_Portfolio.png",
+    "05_Lessons.png",
+    "06_Daily_Challenges.png",
+    "07_Rewards.png",
+    "08_Lesson_Detail.png",
+    "09_Mini_Games_Hub.png",
+    "10_MiniGame_Candle_Match.png",
+    "11_MiniGame_Trend_Runner.png"
+  ],
+  "element_count": 22
+}
