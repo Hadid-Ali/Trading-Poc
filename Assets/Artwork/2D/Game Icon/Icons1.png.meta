@@ -1,0 +1,345 @@
+fileFormatVersion: 2
+guid: a8b6b170a2141a2478449e3f190b25f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7488215999110718187
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_0
+  - first:
+      213: 1515733253354876904
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_1
+  - first:
+      213: -8002355619366989155
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_2
+  - first:
+      213: 1478900192512512407
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_3
+  - first:
+      213: -8232773938790682842
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_4
+  - first:
+      213: 6458304424556435699
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_5
+  - first:
+      213: -6864277055694565998
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_6
+  - first:
+      213: -3942037425263724033
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_7
+  - first:
+      213: 2777913030581283872
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_8
+  - first:
+      213: 1677300520887343046
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_9
+  - first:
+      213: -1329059835838524100
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_10
+  - first:
+      213: 1963710920759896075
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_11
+  - first:
+      213: 5766851250831665806
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_12
+  - first:
+      213: 5083184108980769895
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_13
+  - first:
+      213: 853700736191618977
+    second: ChatGPT Image Jul 14, 2026, 07_29_33 PM_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Icon
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 580
+        width: 323
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a563f8aadb47d41428979589ff307efd
+      internalID: -1729737326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Avatar
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 532
+        width: 275
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd02642decbabb243901e987d341ea49
+      internalID: 1862277480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Graph
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 572
+        width: 505
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f3795b86db2b744917d90fbcd05ce2
+      internalID: 1213551118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 205
+        width: 226
+        height: 260
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1223115bc2d88a44ab809eb06778900
+      internalID: -49654720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gift
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 192
+        width: 243
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a098421865753f042a9d4b8b6e852d0b
+      internalID: -471116600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 187
+        width: 242
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8460466a5874994d85c37e2e17ca184
+      internalID: 733466162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire1
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 200
+        width: 251
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5a01691e5d0f14b8dbc6b7380d5575
+      internalID: 1570556277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5989f43049bba314faf596e72c368e02
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Avatar: 1515733253354876904
+      ChatGPT Image Jul 14, 2026, 07_29_33 PM_11: 1963710920759896075
+      ChatGPT Image Jul 14, 2026, 07_29_33 PM_13: 5083184108980769895
+      ChatGPT Image Jul 14, 2026, 07_29_33 PM_4: -8232773938790682842
+      ChatGPT Image Jul 14, 2026, 07_29_33 PM_5: 6458304424556435699
+      ChatGPT Image Jul 14, 2026, 07_29_33 PM_6: -6864277055694565998
+      ChatGPT Image Jul 14, 2026, 07_29_33 PM_7: -3942037425263724033
+      ChatGPT Image Jul 14, 2026, 07_29_33 PM_8: 2777913030581283872
+      Fire: 1478900192512512407
+      Fire1: 5766851250831665806
+      Gift: 1677300520887343046
+      Graph: -8002355619366989155
+      Icon: -7488215999110718187
+      Shield: -1329059835838524100
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
