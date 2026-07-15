@@ -1,0 +1,542 @@
+fileFormatVersion: 2
+guid: 2fb095d5c5ca54a4586f3812bab4c84b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2893354488583757405
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_0
+  - first:
+      213: -8113725757353703134
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_1
+  - first:
+      213: 8600360863602557951
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_2
+  - first:
+      213: -9164593515397756897
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_3
+  - first:
+      213: -3430568739649842785
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_4
+  - first:
+      213: -5125164921090901890
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_5
+  - first:
+      213: 2634213076558350023
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_6
+  - first:
+      213: -1036361949834704048
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_7
+  - first:
+      213: -580713587163395580
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_8
+  - first:
+      213: -180616387378097178
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_9
+  - first:
+      213: 521603263895693009
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_10
+  - first:
+      213: -7110043706667604657
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_11
+  - first:
+      213: -7157456054437067525
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_12
+  - first:
+      213: -475162533916566066
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_13
+  - first:
+      213: 5337330075699320956
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_14
+  - first:
+      213: 4192832822191152735
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_15
+  - first:
+      213: 8673803536844898747
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_16
+  - first:
+      213: -7352874326709681566
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_17
+  - first:
+      213: 1963577545589009655
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_18
+  - first:
+      213: -3834268188367428777
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_19
+  - first:
+      213: -4011827129376055964
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_20
+  - first:
+      213: 2740339039516727985
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_21
+  - first:
+      213: 7888661137998334078
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_22
+  - first:
+      213: -7428602445930318430
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_23
+  - first:
+      213: -4112412888142850455
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_24
+  - first:
+      213: -8869352439224686371
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_25
+  - first:
+      213: -7101051887157120834
+    second: ChatGPT Image Jul 15, 2026, 12_27_07 PM_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Back Icon
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 756
+        width: 156
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d333e29ea9a4874ca766c74eec8c8d9
+      internalID: 1898672315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: S coin
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 731
+        width: 171
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 9, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dfb1b61fa973944bdb464e3ed67853
+      internalID: 1458932221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dimond
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 744
+        width: 168
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07db2306bde75454b98ab0e0cb67e404
+      internalID: -22613416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Avatar
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 364
+        width: 316
+        height: 326
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aab79e04f2cde046a45b0a6f22db453
+      internalID: -298085280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gold Theme
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 380
+        width: 267
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13083099407e8e741b5060b9e69a6a58
+      internalID: -972796438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pro Tarde
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 388
+        width: 270
+        height: 268
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f3d8a11d6bf2e4f93f479009cb903e
+      internalID: 989875973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP Greem
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 148
+        width: 164
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a59b47c31947c0479a81aa854c0d53c
+      internalID: -2012127808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XP Purple
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 148
+        width: 168
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92735a3f19ea2a45bd41a12c34a6b17
+      internalID: -746283322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward Icon_12
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 163
+        width: 145
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306c07ff2b7dfe14b85e16edb4907bb7
+      internalID: -1349348071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward Icon_15
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 165
+        width: 144
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0144f97d3bf304d87f05c55abe8ec8
+      internalID: -2076813485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward Icon_16
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 164
+        width: 142
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3357646e6e612384a8fb12f78ccd6a97
+      internalID: 993758595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward Icon_0
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 713
+        width: 239
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca48257a31cf253408b2c63dde47d581
+      internalID: 1852231402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Reward Icon_1
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 717
+        width: 195
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b3930e41022e342bca7c710c42632a
+      internalID: -1224947797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2b85bd212bbc7b54c95d10677561ba2c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Avatar: -298085280
+      Back Icon: 1898672315
+      Dimond: -22613416
+      Gold Theme: -972796438
+      Pro Tarde: 989875973
+      Reward Icon_0: 1852231402
+      Reward Icon_1: -1224947797
+      Reward Icon_11: 378486266
+      Reward Icon_12: -1349348071
+      Reward Icon_13: 1556619831
+      Reward Icon_14: -815559007
+      Reward Icon_15: -2076813485
+      Reward Icon_16: 993758595
+      Reward Icon_17: -563808758
+      Reward Icon_18: -2145993588
+      Reward Icon_19: 797831712
+      Reward Icon_20: -2142117634
+      Reward Icon_21: 1321413213
+      Reward Icon_22: -1418841713
+      Reward Icon_23: 2034360222
+      Reward Icon_24: -431483567
+      Reward Icon_25: -977994899
+      Reward Icon_26: 186583745
+      Reward Icon_27: -1441719729
+      Reward Icon_3: -241347801
+      Reward Icon_4: -918311277
+      Reward Icon_5: -1263108617
+      S coin: 1458932221
+      XP Greem: -2012127808
+      XP Purple: -746283322
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
