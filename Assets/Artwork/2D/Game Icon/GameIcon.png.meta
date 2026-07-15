@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 0293a5eac159d3f4b904c57e765e1ead
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1108490351329894174
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_0
+  - first:
+      213: -5811463886538176312
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_1
+  - first:
+      213: -8695560309015473991
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_2
+  - first:
+      213: 3495185965177188129
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_3
+  - first:
+      213: -5830647967131681215
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_4
+  - first:
+      213: -7251914605084761163
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_5
+  - first:
+      213: 6400079471709074440
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_6
+  - first:
+      213: 1778634756873310515
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_7
+  - first:
+      213: -7117229172793420289
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_8
+  - first:
+      213: 6432395315838848229
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_9
+  - first:
+      213: -2690560781606193268
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_10
+  - first:
+      213: -3632325088010193505
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_11
+  - first:
+      213: 4835571923868962001
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_12
+  - first:
+      213: 878915597355772976
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_13
+  - first:
+      213: -5570568901818295229
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_14
+  - first:
+      213: 2040127881763026437
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_15
+  - first:
+      213: 3496881890034341984
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_16
+  - first:
+      213: 4709159072638283894
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_17
+  - first:
+      213: -7865654911023559026
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_18
+  - first:
+      213: -6563936112772915988
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_19
+  - first:
+      213: 147411053557738904
+    second: ChatGPT Image Jul 15, 2026, 02_00_35 PM_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GameIcon 1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 390
+        width: 248
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5d99aa6c58a3d90800000000000000
+      internalID: -7117229172793420289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIcon 2
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 391
+        width: 275
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec067f9575744950800000000000000
+      internalID: 6432395315838848229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameIcon 3
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 391
+        width: 275
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87f3cd693539aad0800000000000000
+      internalID: -2690560781606193268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7929dc392eafd4744b931690ebd513ba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_0: 1108490351329894174
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_1: -5811463886538176312
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_11: -3632325088010193505
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_12: 4835571923868962001
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_13: 878915597355772976
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_14: -5570568901818295229
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_15: 2040127881763026437
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_16: 3496881890034341984
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_17: 4709159072638283894
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_18: -7865654911023559026
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_19: -6563936112772915988
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_2: -8695560309015473991
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_20: 147411053557738904
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_3: 3495185965177188129
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_4: -5830647967131681215
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_5: -7251914605084761163
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_6: 6400079471709074440
+      ChatGPT Image Jul 15, 2026, 02_00_35 PM_7: 1778634756873310515
+      GameIcon 1: -7117229172793420289
+      GameIcon 2: 6432395315838848229
+      GameIcon 3: -2690560781606193268
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
