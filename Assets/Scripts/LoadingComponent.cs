@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class LoadingComponent : MonoBehaviour
 {
+    [SerializeField] UiManager uiManager;
+
     [SerializeField] private float _loadingSpeed;
     [SerializeField] private float _statusChangeTime;
 
@@ -16,13 +18,13 @@ public class LoadingComponent : MonoBehaviour
     [SerializeField] private Image _loaderImage;
     [SerializeField] private TextMeshProUGUI _statusText;
     [SerializeField] private TextMeshProUGUI _loadingText;
-    
+
     private float _currentLoadingValue;
 
     private void Start()
     {
         DOTween.To(() => _currentLoadingValue, x => _currentLoadingValue = x, 1,
-            _loadingSpeed).SetEase(Ease.OutSine).OnComplete(LoadScene).OnUpdate(Action);
+            _loadingSpeed).SetEase(Ease.OutSine).OnComplete(OnLoadComplete).OnUpdate(Action);
 
         Invoke(nameof(OnInitialLoadingComplete), _statusChangeTime);
         _statusText.text = _initialStatus;
@@ -39,8 +41,9 @@ public class LoadingComponent : MonoBehaviour
         _statusText.text = _nextStatus;
     }
 
-    private void LoadScene()
+    private void OnLoadComplete()
     {
-        SceneManager.LoadScene("MainMenu");
+        uiManager.ToggleLoadingPanel(false);
+        uiManager.ToggleHomePanel(true);
     }
 }
