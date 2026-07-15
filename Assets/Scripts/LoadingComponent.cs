@@ -44,6 +44,6 @@ public class LoadingComponent : MonoBehaviour
     private void OnLoadComplete()
     {
         uiManager.ToggleLoadingPanel(false);
-        uiManager.ToggleHomePanel(true);
+        uiManager.ToggleGetStartedPanel(true);
     }
 }

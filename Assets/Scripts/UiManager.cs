@@ -1,5 +1,4 @@
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,6 +20,9 @@ public class UiManager : MonoBehaviour
     [Header("Ui Elements")]
     [SerializeField] TextMeshProUGUI virtualBalanceText;
 
+    [Header("Debug")]
+    [SerializeField] GameObject lastActivePanel; // the panel which just got disbaled.
+
     private void Start()
     {
         ToggleAllPanels(false);
@@ -29,14 +31,38 @@ public class UiManager : MonoBehaviour
         GameManager.Instance.SetVirtualBalance(virtualBalanceText.text);
     }
 
-    public void ToggleLoadingPanel(bool v) => loaingPanel.SetActive(v);
-    public void ToggleGetStartedPanel(bool v) => getStartedPanel.SetActive(v);
-    public void ToggleHomePanel(bool v) => homePanel.SetActive(v);
-    public void ToggleLessonDetailPanel(bool v) => lessonDetailPanel.SetActive(v);
-    public void ToggleTradePanel(bool v) => tradePanel.SetActive(v);
-    public void ToggleLearnPanel(bool v) => learnPanel.SetActive(v);
-    public void TogglePortfolioPanel(bool v) => portfolioPanel.SetActive(v);
-    public void ToggleDailyChallengePanel(bool v) => dailyChallengesPanel.SetActive(v);
+    public void ToggleLoadingPanel(bool v)
+    {
+        if (v != loaingPanel.activeInHierarchy) loaingPanel.SetActive(v);
+    }
+    public void ToggleGetStartedPanel(bool v)
+    {
+        if (v != getStartedPanel.activeInHierarchy) getStartedPanel.SetActive(v);
+    }
+    public void ToggleHomePanel(bool v)
+    {
+        if (v != homePanel.activeInHierarchy) homePanel.SetActive(v);
+    }
+    public void ToggleLessonDetailPanel(bool v)
+    {
+        if (v != lessonDetailPanel.activeInHierarchy) lessonDetailPanel.SetActive(v);
+    }
+    public void ToggleTradePanel(bool v)
+    {
+        if (v != tradePanel.activeInHierarchy) tradePanel.SetActive(v);
+    }
+    public void ToggleLearnPanel(bool v)
+    {
+        if (v != learnPanel.activeInHierarchy) learnPanel.SetActive(v);
+    }
+    public void TogglePortfolioPanel(bool v)
+    {
+        if (v != portfolioPanel.activeInHierarchy) portfolioPanel.SetActive(v);
+    }
+    public void ToggleDailyChallengePanel(bool v)
+    {
+        if (v != dailyChallengesPanel.activeInHierarchy) dailyChallengesPanel.SetActive(v);
+    }
 
     public void ToggleAllPanels(bool v)
     {
@@ -48,6 +74,28 @@ public class UiManager : MonoBehaviour
         ToggleLearnPanel(v);
         TogglePortfolioPanel(v);
         ToggleDailyChallengePanel(v);
+    }
+
+    public void HideAllPanels(GameObject refGo)
+    {
+        if (refGo == loaingPanel && loaingPanel.activeInHierarchy ||
+            refGo == getStartedPanel && getStartedPanel.activeInHierarchy ||
+            refGo == homePanel && homePanel.activeInHierarchy ||
+            refGo == lessonDetailPanel && lessonDetailPanel.activeInHierarchy ||
+            refGo == tradePanel && tradePanel.activeInHierarchy ||
+            refGo == learnPanel && learnPanel.activeInHierarchy ||
+            refGo == portfolioPanel && portfolioPanel.activeInHierarchy ||
+            refGo == dailyChallengesPanel && dailyChallengesPanel.activeInHierarchy)
+            return;
+
+        ToggleLoadingPanel(false);
+        ToggleGetStartedPanel(false);
+        ToggleHomePanel(false);
+        ToggleLessonDetailPanel(false);
+        ToggleTradePanel(false);
+        ToggleLearnPanel(false);
+        TogglePortfolioPanel(false);
+        ToggleDailyChallengePanel(false);
     }
 
     public void ToggleVirtualBalance(bool v)
