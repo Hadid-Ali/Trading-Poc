@@ -6281,6 +6281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ProgressionBar
       objectReference: {fileID: 0}
+    - target: {fileID: 6493407129104573438, guid: 25beb799f0c2e49448002ad4b5d6d84c, type: 3}
+      propertyPath: fillAmount
+      value: 0.4
+      objectReference: {fileID: 0}
     - target: {fileID: 8545036616545821517, guid: 25beb799f0c2e49448002ad4b5d6d84c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

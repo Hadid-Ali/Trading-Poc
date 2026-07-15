@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class UiManager : MonoBehaviour
 {
     [Header("Panels")]
-    [SerializeField] GameObject loaingPanel;
+    [SerializeField] GameObject loadingPanel;
     [SerializeField] GameObject getStartedPanel;
     [SerializeField] GameObject homePanel;
     [SerializeField] GameObject portfolioPanel;
@@ -13,6 +13,7 @@ public class UiManager : MonoBehaviour
     [SerializeField] GameObject learnPanel;
     [SerializeField] GameObject dailyChallengesPanel;
     [SerializeField] GameObject lessonDetailPanel;
+    [SerializeField] GameObject miniGamesPanel;
 
     [Header("Buttons")]
     [SerializeField] Button getStartedBtn;
@@ -33,35 +34,47 @@ public class UiManager : MonoBehaviour
 
     public void ToggleLoadingPanel(bool v)
     {
-        if (v != loaingPanel.activeInHierarchy) loaingPanel.SetActive(v);
+        if (v != loadingPanel.activeInHierarchy) loadingPanel.SetActive(v);
     }
+
     public void ToggleGetStartedPanel(bool v)
     {
         if (v != getStartedPanel.activeInHierarchy) getStartedPanel.SetActive(v);
     }
+
     public void ToggleHomePanel(bool v)
     {
         if (v != homePanel.activeInHierarchy) homePanel.SetActive(v);
     }
-    public void ToggleLessonDetailPanel(bool v)
-    {
-        if (v != lessonDetailPanel.activeInHierarchy) lessonDetailPanel.SetActive(v);
-    }
-    public void ToggleTradePanel(bool v)
-    {
-        if (v != tradePanel.activeInHierarchy) tradePanel.SetActive(v);
-    }
-    public void ToggleLearnPanel(bool v)
-    {
-        if (v != learnPanel.activeInHierarchy) learnPanel.SetActive(v);
-    }
+
     public void TogglePortfolioPanel(bool v)
     {
         if (v != portfolioPanel.activeInHierarchy) portfolioPanel.SetActive(v);
     }
+
+    public void ToggleTradePanel(bool v)
+    {
+        if (v != tradePanel.activeInHierarchy) tradePanel.SetActive(v);
+    }
+
+    public void ToggleLearnPanel(bool v)
+    {
+        if (v != learnPanel.activeInHierarchy) learnPanel.SetActive(v);
+    }
+
     public void ToggleDailyChallengePanel(bool v)
     {
         if (v != dailyChallengesPanel.activeInHierarchy) dailyChallengesPanel.SetActive(v);
+    }
+
+    public void ToggleLessonDetailPanel(bool v)
+    {
+        if (v != lessonDetailPanel.activeInHierarchy) lessonDetailPanel.SetActive(v);
+    }
+
+    public void ToggleMiniGamesPanel(bool v)
+    {
+        if (v != miniGamesPanel.activeInHierarchy) miniGamesPanel.SetActive(v);
     }
 
     public void ToggleAllPanels(bool v)
@@ -69,33 +82,37 @@ public class UiManager : MonoBehaviour
         ToggleLoadingPanel(v);
         ToggleGetStartedPanel(v);
         ToggleHomePanel(v);
-        ToggleLessonDetailPanel(v);
+        TogglePortfolioPanel(v);
         ToggleTradePanel(v);
         ToggleLearnPanel(v);
-        TogglePortfolioPanel(v);
         ToggleDailyChallengePanel(v);
+        ToggleLessonDetailPanel(v);
+        ToggleMiniGamesPanel(v);
     }
 
     public void HideAllPanels(GameObject refGo)
     {
-        if (refGo == loaingPanel && loaingPanel.activeInHierarchy ||
+        // Avoid redundant SetActive calls
+        if (refGo == loadingPanel && loadingPanel.activeInHierarchy ||
             refGo == getStartedPanel && getStartedPanel.activeInHierarchy ||
             refGo == homePanel && homePanel.activeInHierarchy ||
-            refGo == lessonDetailPanel && lessonDetailPanel.activeInHierarchy ||
+            refGo == portfolioPanel && portfolioPanel.activeInHierarchy ||
             refGo == tradePanel && tradePanel.activeInHierarchy ||
             refGo == learnPanel && learnPanel.activeInHierarchy ||
-            refGo == portfolioPanel && portfolioPanel.activeInHierarchy ||
-            refGo == dailyChallengesPanel && dailyChallengesPanel.activeInHierarchy)
+            refGo == dailyChallengesPanel && dailyChallengesPanel.activeInHierarchy ||
+            refGo == lessonDetailPanel && lessonDetailPanel.activeInHierarchy ||
+            refGo == miniGamesPanel && miniGamesPanel.activeInHierarchy)
             return;
 
         ToggleLoadingPanel(false);
         ToggleGetStartedPanel(false);
         ToggleHomePanel(false);
-        ToggleLessonDetailPanel(false);
+        TogglePortfolioPanel(false);
         ToggleTradePanel(false);
         ToggleLearnPanel(false);
-        TogglePortfolioPanel(false);
         ToggleDailyChallengePanel(false);
+        ToggleLessonDetailPanel(false);
+        ToggleMiniGamesPanel(false);
     }
 
     public void ToggleVirtualBalance(bool v)

@@ -209,6 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2638814e1e75be8469f9f94959b43ce1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LoadingComponent
+  uiManager: {fileID: 0}
   _loadingSpeed: 5
   _statusChangeTime: 2
   _initialStatus: Fetching Market Data...
@@ -1345,6 +1346,10 @@ PrefabInstance:
     - target: {fileID: 5649934482697988555, guid: 25beb799f0c2e49448002ad4b5d6d84c, type: 3}
       propertyPath: m_Name
       value: ProgressionBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493407129104573438, guid: 25beb799f0c2e49448002ad4b5d6d84c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8545036616545821517, guid: 25beb799f0c2e49448002ad4b5d6d84c, type: 3}
       propertyPath: m_Pivot.x
