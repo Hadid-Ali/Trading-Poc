@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71fe7d373aa915149bdef3ec9b9af333, type: 3}
+  m_Name: PredictionSO 1
+  m_EditorClassIdentifier: Assembly-CSharp::MarketPredictionSO
+  Question: ' A new global health emergency causes travel restrictions, factory shutdowns,
+    and reduced consumer
+
+    activity'
+  CorrectPredictions: 01000000030000000400000007000000
+  CorrectDes: 'Stocks and crypto fell as activity weakened. Gold rose for safety,
+    while oil fell as
+
+    travel demand dropped'
+  WrongDes: Not quite. Look for weaker economic activity and increased demand for
+    safer assets

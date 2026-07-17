@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71fe7d373aa915149bdef3ec9b9af333, type: 3}
+  m_Name: PredictionSO 7
+  m_EditorClassIdentifier: Assembly-CSharp::MarketPredictionSO
+  Question: ' New data shows that food, fuel, and housing prices are rising much
+    faster than economists expected.'
+  CorrectPredictions: 01000000030000000400000006000000
+  CorrectDes: ' Stocks and crypto fell under rate pressure. Gold rose as inflation
+    protection, while
+
+    oil rose with higher commodity prices.'
+  WrongDes: ' Not quite. Higher inflation can hurt growth assets and increase demand
+    for inflation
+
+    protection.'
