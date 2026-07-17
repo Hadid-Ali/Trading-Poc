@@ -14,6 +14,7 @@ public class UiManager : MonoBehaviour
     [SerializeField] GameObject dailyChallengesPanel;
     [SerializeField] GameObject lessonDetailPanel;
     [SerializeField] GameObject miniGamesPanel;
+    [SerializeField] GameObject pbGamePanel;
 
     [Header("Buttons")]
     [SerializeField] Button getStartedBtn;
@@ -77,6 +78,11 @@ public class UiManager : MonoBehaviour
         if (v != miniGamesPanel.activeInHierarchy) miniGamesPanel.SetActive(v);
     }
 
+    public void TogglePbGamePanel(bool v)
+    {
+        if (v != pbGamePanel.activeInHierarchy) pbGamePanel.SetActive(v);
+    }
+
     public void ToggleAllPanels(bool v)
     {
         ToggleLoadingPanel(v);
@@ -88,6 +94,7 @@ public class UiManager : MonoBehaviour
         ToggleDailyChallengePanel(v);
         ToggleLessonDetailPanel(v);
         ToggleMiniGamesPanel(v);
+        TogglePbGamePanel(v);
     }
 
     public void HideAllPanels(GameObject refGo)
@@ -113,6 +120,7 @@ public class UiManager : MonoBehaviour
         ToggleDailyChallengePanel(false);
         ToggleLessonDetailPanel(false);
         ToggleMiniGamesPanel(false);
+        TogglePbGamePanel(false);
     }
 
     public void ToggleVirtualBalance(bool v)

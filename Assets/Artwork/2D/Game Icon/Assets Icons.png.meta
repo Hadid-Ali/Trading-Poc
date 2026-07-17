@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: 4d87d2b35569e9d4a91b0a45abca0f97
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 503148548982344811
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_0
+  - first:
+      213: 2295147021457035331
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_1
+  - first:
+      213: 1154037657447929495
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_2
+  - first:
+      213: -439486396434230174
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_3
+  - first:
+      213: 5421758865026557794
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_4
+  - first:
+      213: -1896951849918565292
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_5
+  - first:
+      213: -8382850064479504295
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_6
+  - first:
+      213: -5612218269609740528
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_7
+  - first:
+      213: 8207682049037226673
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_8
+  - first:
+      213: 7570301483495580918
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_9
+  - first:
+      213: -522398660487682599
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_10
+  - first:
+      213: -3893682994157702298
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_11
+  - first:
+      213: 1065202942010743212
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_12
+  - first:
+      213: 1740387481464901830
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_13
+  - first:
+      213: 7350249234216029975
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_14
+  - first:
+      213: -9068542304862020144
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_15
+  - first:
+      213: -8582897851775466246
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_16
+  - first:
+      213: -6044545050512370910
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_17
+  - first:
+      213: 132980222288684932
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_18
+  - first:
+      213: -6004622871650342223
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_19
+  - first:
+      213: -6626868459321578943
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_20
+  - first:
+      213: -3693943497028824542
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_21
+  - first:
+      213: -4112381219276478176
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_22
+  - first:
+      213: -5336399839587532489
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_23
+  - first:
+      213: 6586853548331257218
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_24
+  - first:
+      213: 5757991865263819979
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_25
+  - first:
+      213: -467662386005100732
+    second: ChatGPT Image Jul 17, 2026, 06_25_32 PM_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tesla
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 628
+        width: 312
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba3fce66e5fb024fbeb72f0a1422423
+      internalID: 913291614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bitcoin
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 628
+        width: 311
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d16acccf251fb4190e2dfe62665d7d
+      internalID: 995775436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 626
+        width: 320
+        height: 302
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23c75b3824272a49bc54dd659a1110f
+      internalID: 1712905579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 128
+        width: 309
+        height: 297
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82651d92408ec64c8905bddaef8769d
+      internalID: -439634457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Etf
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 130
+        width: 311
+        height: 295
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111a5c53158183e4497305e52bb8b199
+      internalID: 1851211226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oil
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 128
+        width: 311
+        height: 299
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0305d4eb4e42fd45a4d99b7c833867f
+      internalID: 495249216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bond
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 129
+        width: 310
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82058210d3dfd244db065208ea486915
+      internalID: -1953576270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 73b46600ceaa53a4cb237857f58afbed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1536.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Assets Icons_10: -1323482624
+      Assets Icons_11: 2130088156
+      Assets Icons_12: 382600944
+      Assets Icons_17: -967506309
+      Assets Icons_18: 617430279
+      Assets Icons_19: 2139564301
+      Assets Icons_20: 1057718702
+      Assets Icons_21: -770929465
+      Assets Icons_22: -153464698
+      Assets Icons_23: -1032095753
+      Assets Icons_24: -1925555013
+      Assets Icons_25: -1997852767
+      Assets Icons_26: -469963909
+      Assets Icons_27: 183529789
+      Assets Icons_28: -1164449914
+      Assets Icons_29: -115846640
+      Assets Icons_3: 2089862010
+      Assets Icons_30: 695328242
+      Assets Icons_4: 959651807
+      Assets Icons_5: -1545313042
+      Assets Icons_6: -1730183868
+      Assets Icons_7: 1410225720
+      Assets Icons_8: 1543525428
+      Assets Icons_9: 1584323900
+      Etf: 1851211226
+      apple: 1712905579
+      bitcoin: 995775436
+      bond: -1953576270
+      gold: -439634457
+      oil: 495249216
+      tesla: 913291614
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
