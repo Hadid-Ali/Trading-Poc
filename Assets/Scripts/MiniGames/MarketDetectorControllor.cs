@@ -3,8 +3,6 @@ using DG.Tweening;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
-using System.Linq;
-using System.Linq.Expressions;
 
 public class MarketDetectorControllor : MonoBehaviour
 {
@@ -25,7 +23,6 @@ public class MarketDetectorControllor : MonoBehaviour
     [SerializeField] UiManager uiManager;
     private bool continuePressed;
 
-
     void Start()
     {
         _submit.onClick.RemoveAllListeners();
@@ -37,7 +34,6 @@ public class MarketDetectorControllor : MonoBehaviour
         currentScenario = 0;
 
         LoadScenario(currentScenario);
-
     }
     void ShowOption()
     {
@@ -136,7 +132,7 @@ public class MarketDetectorControllor : MonoBehaviour
         }
         else
         {
-           OnGameComplete();
+            OnGameComplete();
             Debug.Log("Game Completed");
         }
     }
@@ -188,7 +184,7 @@ public class MarketDetectorControllor : MonoBehaviour
 
 
     }
-   public void ResetGame()
+    public void ResetGame()
     {
         HideAll();
         currentScenario = 0;
@@ -198,10 +194,8 @@ public class MarketDetectorControllor : MonoBehaviour
     void OnGameComplete()
     {
         RectTransform rt = _gamecompletePanel.GetComponent<RectTransform>();
-        rt.localScale=  Vector3.zero;
+        rt.localScale = Vector3.zero;
         rt.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
         _gamecompletePanel.SetActive(true);
     }
-
-
 }

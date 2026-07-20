@@ -1,6 +1,6 @@
-using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
+
 [CreateAssetMenu(fileName = "PredictionSO", menuName = "MarketDetectorData")]
 public class MarketPredictionSO : ScriptableObject
 {
@@ -12,4 +12,3 @@ public class MarketPredictionSO : ScriptableObject
     [TextArea(2, 3)]
     public string WrongDes;
 }
-
