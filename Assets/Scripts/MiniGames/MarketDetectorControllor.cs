@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
 using System.Linq;
+using System.Linq.Expressions;
 
 public class MarketDetectorControllor : MonoBehaviour
 {
@@ -14,12 +15,15 @@ public class MarketDetectorControllor : MonoBehaviour
     [SerializeField] private Button _submit;
     [SerializeField] private Button _next;
     [SerializeField] private Button _retry;
+    [Header("Panels")]
     [SerializeField] GameObject _resultPanel;
+    [SerializeField] GameObject _gamecompletePanel;
+    [Header("TExt ref")]
     [SerializeField] TMP_Text _resultDes;
-    //[SerializeField] GameObject _WrongPanel;
-
     [SerializeField] TMP_Text _questiontext;
     int currentScenario;
+    [SerializeField] UiManager uiManager;
+    private bool continuePressed;
 
 
     void Start()
@@ -33,17 +37,16 @@ public class MarketDetectorControllor : MonoBehaviour
         currentScenario = 0;
 
         LoadScenario(currentScenario);
-        
+
     }
     void ShowOption()
     {
         _optionParent.localScale = Vector3.zero;
-        _optionParent
-     .DOScale(Vector3.one, 0.5f)
-    .SetEase(Ease.OutBack);
+        _optionParent.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
     }
     void LoadScenario(int currentPrediction)
     {
+        HideAll();
         ShowOption();
         if (currentPrediction >= PredictionScenario.Count)
         {
@@ -60,7 +63,7 @@ public class MarketDetectorControllor : MonoBehaviour
     {
         SelectPrediction(Prediction.StockUp);
     }
-               
+
     public void OnStockDown()
     {
         SelectPrediction(Prediction.StockDown);
@@ -121,7 +124,7 @@ public class MarketDetectorControllor : MonoBehaviour
             ShowResult(false);
         }
     }
-   
+
     public void OnNext()
     {
         HideAll();
@@ -133,45 +136,71 @@ public class MarketDetectorControllor : MonoBehaviour
         }
         else
         {
+           OnGameComplete();
             Debug.Log("Game Completed");
         }
     }
-    
-        void ShowResult(bool isCorrect)
-        {
-        _resultPanel.SetActive(isCorrect);
+
+    void ShowResult(bool isCorrect)
+    {
+        _resultPanel.SetActive(true);
         RectTransform rt = _resultPanel.GetComponent<RectTransform>();
         rt.anchoredPosition = new Vector2(0, -600);
         rt.DOAnchorPosY(0, 0.5f).SetEase(Ease.OutBack);
 
         MarketPredictionSO scenario = PredictionScenario[currentScenario];
 
-            if (isCorrect)
-            {
+        if (isCorrect)
+        {
             //titleText.text = "Correct!";
             _resultDes.text = scenario.CorrectDes;
 
-                _next.gameObject.SetActive(true);
-               _retry.gameObject.SetActive(false);
-            }
-            else
-            {
+            _next.gameObject.SetActive(true);
+            _retry.gameObject.SetActive(false);
+        }
+        else
+        {
             //titleText.text = "Wrong!";
             _resultDes.text = scenario.WrongDes;
 
             _next.gameObject.SetActive(false);
             _retry.gameObject.SetActive(true);
         }
-        }
-    
+    }
+
     void HideAll()
     {
-        ShowResult(false);
+        _resultPanel.SetActive(false);
+        _gamecompletePanel.SetActive(false);
     }
     public void OnRetry()
     {
         HideAll();
         LoadScenario(currentScenario);
+    }
+    public void OnContinue()
+    {
+        HideAll();
+        ResetGame();
+        uiManager.ToggleAllPanels(false);
+        uiManager.ToggleHomePanel(true);
+        continuePressed = true;
+
+
+    }
+   public void ResetGame()
+    {
+        HideAll();
+        currentScenario = 0;
+        LoadScenario(currentScenario);
+        userPredictions.Clear();
+    }
+    void OnGameComplete()
+    {
+        RectTransform rt = _gamecompletePanel.GetComponent<RectTransform>();
+        rt.localScale=  Vector3.zero;
+        rt.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
+        _gamecompletePanel.SetActive(true);
     }
 
 

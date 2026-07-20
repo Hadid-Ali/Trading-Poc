@@ -12,13 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71fe7d373aa915149bdef3ec9b9af333, type: 3}
   m_Name: PredictionSO 3
   m_EditorClassIdentifier: Assembly-CSharp::MarketPredictionSO
-  Question: 'A major oil spill forces an important production facility to close temporarily,
-    reducing available oil
-
-    supply'
+  Question: A Major oil spill forces an important production facility to close temporarily,
+    reducing available oil supply
   CorrectPredictions: 01000000030000000400000006000000
-  CorrectDes: 'Stocks and crypto fell on uncertainty. Gold rose for safety, while
-    oil rose because
-
-    supply decreased.'
+  CorrectDes: Stocks and crypto fell on uncertainty. Gold rose for safety, while
+    oil rose because supply decreased.
   WrongDes: Not quite. The shutdown reduced oil supply and increased market uncertainty.

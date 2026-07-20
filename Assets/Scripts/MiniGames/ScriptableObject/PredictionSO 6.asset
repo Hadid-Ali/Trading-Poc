@@ -15,9 +15,7 @@ MonoBehaviour:
   Question: Major airlines report strong profits after international travel demand
     rises sharply.
   CorrectPredictions: 00000000020000000500000006000000
-  CorrectDes: 'Stocks and crypto rose with stronger confidence. Gold fell as safety
-    demand eased,
-
-    while oil rose because air travel increased fuel demand'
+  CorrectDes: Stocks and crypto rose with stronger confidence. Gold fell as safety
+    demand eased,while oil rose because air travel increased fuel demand
   WrongDes: Not quite. More air travel generally benefits companies and increases
     fuel demand.

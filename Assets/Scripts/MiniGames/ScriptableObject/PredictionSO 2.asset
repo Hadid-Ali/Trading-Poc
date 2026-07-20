@@ -12,12 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71fe7d373aa915149bdef3ec9b9af333, type: 3}
   m_Name: PredictionSO 2
   m_EditorClassIdentifier: Assembly-CSharp::MarketPredictionSO
-  Question: ' A sharp rise in fuel and electricity prices pushes inflation higher
-    across the economy.'
+  Question: A Sharp rise in fuel and electricity prices pushes inflation higher across
+    the economy.
   CorrectPredictions: 01000000030000000400000006000000
-  CorrectDes: 'Stocks and crypto fell as costs increased. Gold rose for protection,
-    while oil rose
-
-    because energy prices were the source of inflation.'
+  CorrectDes: Stocks and crypto fell as costs increased. Gold rose for protection,
+    while oil rose because energy prices were the source of inflation.
   WrongDes: Not quite. Energy-driven inflation directly benefits oil while increasing
     business costs.

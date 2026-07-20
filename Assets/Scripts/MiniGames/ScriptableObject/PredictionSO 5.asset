@@ -12,14 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71fe7d373aa915149bdef3ec9b9af333, type: 3}
   m_Name: PredictionSO 5
   m_EditorClassIdentifier: Assembly-CSharp::MarketPredictionSO
-  Question: 'A major company reports falling sales, misses profit expectations, and
-    announces thousands of job
-
-    cuts'
+  Question: A Major company reports falling sales, misses profit expectations, and
+    announces thousands of job cuts
   CorrectPredictions: 01000000030000000400000007000000
-  CorrectDes: 'Stocks and crypto fell as confidence weakened. Gold rose for safety,
-    while oil fell
-
-    on lower growth expectations.'
+  CorrectDes: Stocks and crypto fell as confidence weakened. Gold rose for safety,
+    while oil fell on lower growth expectations.
   WrongDes: Not quite. Poor business performance usually pressures stocks and other
     risky assets.
