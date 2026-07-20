@@ -141,8 +141,6 @@ public class UiManager : MonoBehaviour
         else
             virtualBalanceText.text = virtualBalanceText.text[0] + new string('*', virtualBalanceText.text.Length - 1);
     }
-
-
 }
 
 /* Hierarchy order:

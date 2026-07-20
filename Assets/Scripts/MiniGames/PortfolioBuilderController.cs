@@ -1,5 +1,4 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -7,13 +6,14 @@ using UnityEngine.Events;
 
 public class PortfolioBuilderController : MonoBehaviour
 {
-    public static UnityAction<AssetType, float> OnInvestedAmountChanged;
+    public static UnityAction<AssetType, float, float> OnInvestedAmountChanged;
 
     [SerializeField] private PBEventsDataSO eventsDataSO;
 
     [SerializeField] UiManager uiManager;
 
     [Header("Ui references")]
+    [SerializeField] TextMeshProUGUI totalVirtualMoneyTxt;
     [SerializeField] TextMeshProUGUI discTxt;
     [SerializeField] TextMeshProUGUI resultTxt;
     [SerializeField] TextMeshProUGUI learningPointTxt;
@@ -23,6 +23,7 @@ public class PortfolioBuilderController : MonoBehaviour
     [SerializeField] List<InvestedAmountMeta> lastInvestedAmounts;
 
     private List<EventData> shuffledEvents;
+    private int currentEventIndex;
     [SerializeField] private EventData currentEvent;
     private bool continuePressed;
 
@@ -40,6 +41,17 @@ public class PortfolioBuilderController : MonoBehaviour
 
     private void Start()
     {
+        BeginGame();
+    }
+
+    public void BeginGame()
+    {
+        InitializeData();
+        StartEvents();
+    }
+
+    private void InitializeData()
+    {
         lastInvestedAmounts = new();
 
         foreach (var item in investedAmounts)
@@ -50,10 +62,9 @@ public class PortfolioBuilderController : MonoBehaviour
                 amount = item.amount
             });
         }
-        StartCoroutine(nameof(StartEvents));
     }
 
-    public IEnumerator StartEvents()
+    public void StartEvents()
     {
         // Create a shuffled copy of the events
         shuffledEvents = new List<EventData>(eventsDataSO.eventsData);
@@ -65,28 +76,45 @@ public class PortfolioBuilderController : MonoBehaviour
                 (shuffledEvents[randomIndex], shuffledEvents[i]);
         }
 
-        // Loop through each event
-        foreach (EventData evt in shuffledEvents)
+        currentEventIndex = 0;
+
+        ShowCurrentEvent();
+    }
+
+    private void ShowCurrentEvent()
+    {
+        if (currentEventIndex >= shuffledEvents.Count)
         {
-            currentEvent = evt;
-
-            // Update UI
-            discTxt.text = currentEvent.statement;
-
-            // Wait until Continue is pressed
-            continuePressed = false;
-            yield return new WaitUntil(() => continuePressed);
+            EventsCompleted();
+            return;
         }
 
-        EventsCompleted();
+        currentEvent = shuffledEvents[currentEventIndex];
+        discTxt.text = currentEvent.statement;
     }
-    private void UpdateInvestedAmount(AssetType assetType, float amount)
+
+    private void UpdateInvestedAmount(AssetType assetType, float amount, float currentInvested)
     {
         InvestedAmountMeta investedAmountMeta = investedAmounts.Find(x => x.assetType == assetType);
         if (investedAmountMeta != null)
         {
             investedAmountMeta.amount = amount;
         }
+        UpdateTotalVistualMoney(currentInvested);
+    }
+
+    private void UpdateTotalVistualMoney(float amount)
+    {
+        float totalMoney = float.Parse(totalVirtualMoneyTxt.text.Replace("$", "").Replace(",", ""));
+
+        totalMoney += amount;
+
+        totalVirtualMoneyTxt.text = totalMoney % 1 == 0 ? $"${totalMoney:N0}" : $"${totalMoney:N2}";
+    }
+
+    public float GetTotalVirtualMoney()
+    {
+        return float.Parse(totalVirtualMoneyTxt.text.Replace("$", "").Replace(",", ""));
     }
 
     //OnSubmitClick: store last values of investments in lastInvestedAmounts (in the prev round) and check agaist the new/latest investedAmountDict values. and store results in investedAmountResultMetas. like if the current val is > last val == it goes up, etc.
@@ -161,12 +189,20 @@ public class PortfolioBuilderController : MonoBehaviour
     {
         resultPopup.SetActive(false);
         continuePressed = true;
+        currentEventIndex++;
+        ShowCurrentEvent();
     }
 
     private void EventsCompleted()
     {
         uiManager.ToggleAllPanels(false);
         uiManager.ToggleHomePanel(true);
+        ResetGame();
+    }
+
+    private void ResetGame()
+    {
+        BeginGame();
     }
 }
 

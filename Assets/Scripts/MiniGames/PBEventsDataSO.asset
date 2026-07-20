@@ -71,3 +71,78 @@ MonoBehaviour:
     wrongAns: Oil and broad-market ETFs benefited most from reopening.
     learningPoint: Economic reopening can benefit broad markets and energy demand
       while reducing demand for defensive assets.
+  - statement: Major oil-producing countries reduce production while global demand
+      remains unchanged.
+    directions:
+    - assetType: 0
+      direction: 2
+    - assetType: 1
+      direction: 1
+    - assetType: 2
+      direction: 2
+    - assetType: 3
+      direction: 1
+    - assetType: 4
+      direction: 1
+    - assetType: 5
+      direction: 1
+    correctAns: Lower supply pushed oil prices higher.
+    wrongAns: Oil was affected most directly by the production cut.
+    learningPoint: Lower supply can push commodity prices higher when demand remains
+      stable.
+  - statement: A geopolitical conflict interrupts oil exports from a major producing
+      region. Global businesses fear fuel shortages and higher transport costs.
+    directions:
+    - assetType: 0
+      direction: 2
+    - assetType: 1
+      direction: 1
+    - assetType: 2
+      direction: 2
+    - assetType: 3
+      direction: 1
+    - assetType: 4
+      direction: 1
+    - assetType: 5
+      direction: 1
+    correctAns: Oil rose on supply fears, while gold gained as a defensive asset.
+    wrongAns: The conflict supported oil and increased demand for gold.
+    learningPoint: Supply disruption may increase oil prices and encourage investors
+      to seek defensive assets.
+  - statement: A worldwide economic slowdown reduces manufacturing, transport, and
+      aviation activity. Oil demand drops while production remains high.
+    directions:
+    - assetType: 0
+      direction: 2
+    - assetType: 1
+      direction: 2
+    - assetType: 2
+      direction: 2
+    - assetType: 3
+      direction: 1
+    - assetType: 4
+      direction: 2
+    - assetType: 5
+      direction: 1
+    correctAns: Bonds performed better as investors looked for safer assets.
+    wrongAns: Falling demand hurt oil and risky assets, while bonds offered protection.
+    learningPoint: When demand falls faster than supply, oil prices may decline sharply.
+  - statement: Food, fuel, housing, and transport costs rise much faster than expected.
+      Consumers lose purchasing power, and businesses face higher operating expenses.
+    directions:
+    - assetType: 0
+      direction: 2
+    - assetType: 1
+      direction: 2
+    - assetType: 2
+      direction: 2
+    - assetType: 3
+      direction: 1
+    - assetType: 4
+      direction: 1
+    - assetType: 5
+      direction: 2
+    correctAns: Gold performed better as investors looked for inflation protection.
+    wrongAns: Inflation hurt growth assets and bonds, while gold offered protection.
+    learningPoint: High inflation may hurt growth stocks and bonds while supporting
+      some commodities and defensive assets.
