@@ -909,6 +909,7 @@ GameObject:
   - component: {fileID: 2422963524057384461}
   - component: {fileID: 5456880420454219115}
   - component: {fileID: 6949220529735803241}
+  - component: {fileID: 7216681116039291703}
   m_Layer: 5
   m_Name: Game 2
   m_TagString: Untagged
@@ -934,9 +935,9 @@ RectTransform:
   - {fileID: 2025593442780601662}
   m_Father: {fileID: 4853354138143467951}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 553.05566, y: -471.3828}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 984.1114, y: 292.9974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2422963524057384461
@@ -1033,6 +1034,31 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PortfolioBuilderController, Assembly-CSharp
+        m_MethodName: BeginGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+--- !u!114 &7216681116039291703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3126990921848998910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &3410636214838408538
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,7 +1213,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7954893072170726532
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1952,6 +1978,7 @@ GameObject:
   - component: {fileID: 2807826844362096247}
   - component: {fileID: 6286181630984954577}
   - component: {fileID: 3864649878515916358}
+  - component: {fileID: 530676494591872197}
   m_Layer: 5
   m_Name: Game 1
   m_TagString: Untagged
@@ -1977,9 +2004,9 @@ RectTransform:
   - {fileID: 517944091625019204}
   m_Father: {fileID: 4853354138143467951}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 553.05566, y: -146.4987}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 984.1114, y: 292.9974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2807826844362096247
@@ -2076,6 +2103,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &530676494591872197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6129090313645283317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &6423856569107575638
 GameObject:
   m_ObjectHideFlags: 0
@@ -2337,6 +2377,7 @@ GameObject:
   - component: {fileID: 6647617306759610347}
   - component: {fileID: 6292093719743565794}
   - component: {fileID: 7939318554854966020}
+  - component: {fileID: 2864768630015879613}
   m_Layer: 5
   m_Name: Game 3
   m_TagString: Untagged
@@ -2362,9 +2403,9 @@ RectTransform:
   - {fileID: 5505272394102704847}
   m_Father: {fileID: 4853354138143467951}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 553.05566, y: -796.2669}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 984.1114, y: 292.9974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6647617306759610347
@@ -2449,6 +2490,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2864768630015879613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7155267341198044303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &7231616005342291431
 GameObject:
   m_ObjectHideFlags: 0
@@ -2673,6 +2727,7 @@ GameObject:
   - component: {fileID: 2966801176697319114}
   - component: {fileID: 3909632361091518051}
   - component: {fileID: 6759980688398484624}
+  - component: {fileID: 6438461768822346202}
   m_Layer: 5
   m_Name: More Game
   m_TagString: Untagged
@@ -2782,6 +2837,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6438461768822346202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7954964903253663442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &9000627893364045513
 GameObject:
   m_ObjectHideFlags: 0

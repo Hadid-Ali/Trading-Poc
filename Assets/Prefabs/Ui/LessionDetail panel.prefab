@@ -1435,6 +1435,7 @@ GameObject:
   - component: {fileID: 4218969382187011739}
   - component: {fileID: 1939178111350491683}
   - component: {fileID: 1098918637956662920}
+  - component: {fileID: 2235119042355715054}
   m_Layer: 5
   m_Name: 'Start Lesson btn '
   m_TagString: Untagged
@@ -1544,6 +1545,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2235119042355715054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6129235039585911725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &6695159156917474015
 GameObject:
   m_ObjectHideFlags: 0

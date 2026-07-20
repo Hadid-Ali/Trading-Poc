@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7764191007690372952}
   - component: {fileID: 8269196817748962428}
   - component: {fileID: 542912200500099099}
+  - component: {fileID: 8970030676719947994}
   m_Layer: 5
   m_Name: EyeIcon Img (1)
   m_TagString: Untagged
@@ -144,6 +145,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &8970030676719947994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238892012410350553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &273299037484707146
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,6 +552,7 @@ GameObject:
   - component: {fileID: 5496283233155155731}
   - component: {fileID: 2703045096523112598}
   - component: {fileID: 8043445180413204285}
+  - component: {fileID: 5641274475858130220}
   m_Layer: 5
   m_Name: Item
   m_TagString: Untagged
@@ -648,6 +663,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5641274475858130220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563606754862414602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &757365775089562768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1633,6 +1661,7 @@ GameObject:
   - component: {fileID: 254044985460094216}
   - component: {fileID: 2158737816878877255}
   - component: {fileID: 4969876225484746884}
+  - component: {fileID: 1578391252168008169}
   m_Layer: 5
   m_Name: Item (1)
   m_TagString: Untagged
@@ -1767,6 +1796,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &1578391252168008169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2222621884873096751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &2233045686650558751
 GameObject:
   m_ObjectHideFlags: 0
@@ -2692,6 +2734,7 @@ GameObject:
   - component: {fileID: 2481782846680796786}
   - component: {fileID: 7888378432215340524}
   - component: {fileID: 1915321535004956697}
+  - component: {fileID: 3345656904750366926}
   m_Layer: 5
   m_Name: Item (2)
   m_TagString: Untagged
@@ -2802,6 +2845,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3345656904750366926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3593047851054004903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &3652716515583348980
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,6 +3073,7 @@ GameObject:
   - component: {fileID: 2600949442062092223}
   - component: {fileID: 6806259622246825135}
   - component: {fileID: 2198280886808072607}
+  - component: {fileID: 7373025178175107775}
   m_Layer: 5
   m_Name: Notifications Img
   m_TagString: Untagged
@@ -3125,6 +3182,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7373025178175107775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4099572430635625018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &4111780883227753017
 GameObject:
   m_ObjectHideFlags: 0
@@ -3137,6 +3207,7 @@ GameObject:
   - component: {fileID: 7078556298928661247}
   - component: {fileID: 1836961050196853867}
   - component: {fileID: 4715294479058704116}
+  - component: {fileID: 5480952897852460486}
   m_Layer: 5
   m_Name: EyeIcon Img
   m_TagString: Untagged
@@ -3269,6 +3340,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5480952897852460486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4111780883227753017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &4478607577473595594
 GameObject:
   m_ObjectHideFlags: 0
@@ -3515,6 +3599,7 @@ GameObject:
   - component: {fileID: 2309339321326893747}
   - component: {fileID: 8144170607440012202}
   - component: {fileID: 5492304508343022986}
+  - component: {fileID: 4190507645716595588}
   m_Layer: 5
   m_Name: Item (3)
   m_TagString: Untagged
@@ -3625,6 +3710,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4190507645716595588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5843517010759978997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &6129786782991562245
 GameObject:
   m_ObjectHideFlags: 0
@@ -4926,6 +5024,7 @@ GameObject:
   - component: {fileID: 5359161379669276672}
   - component: {fileID: 7284763083754637891}
   - component: {fileID: 5954701124427847683}
+  - component: {fileID: 4678523388645006109}
   m_Layer: 5
   m_Name: ExpandIcon Img
   m_TagString: Untagged
@@ -5034,6 +5133,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4678523388645006109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8602842530897289242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &9201836252063015979
 GameObject:
   m_ObjectHideFlags: 0

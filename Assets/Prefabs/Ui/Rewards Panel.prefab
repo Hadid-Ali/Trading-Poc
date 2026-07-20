@@ -2653,6 +2653,7 @@ GameObject:
   - component: {fileID: 3850496024695964100}
   - component: {fileID: 6252533609301725148}
   - component: {fileID: 7007444458943751828}
+  - component: {fileID: 7909912442602197659}
   m_Layer: 5
   m_Name: Feature 1
   m_TagString: Untagged
@@ -2765,6 +2766,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7909912442602197659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5369054190834196325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &5430548873393083732
 GameObject:
   m_ObjectHideFlags: 0
@@ -2777,6 +2791,7 @@ GameObject:
   - component: {fileID: 749141548541971689}
   - component: {fileID: 8524491929798287373}
   - component: {fileID: 8008266387955852079}
+  - component: {fileID: 4532643418269403553}
   m_Layer: 5
   m_Name: Feature 3
   m_TagString: Untagged
@@ -2889,6 +2904,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4532643418269403553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5430548873393083732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &6038400954647337668
 GameObject:
   m_ObjectHideFlags: 0
@@ -5254,6 +5282,7 @@ GameObject:
   - component: {fileID: 3623406516377193418}
   - component: {fileID: 1277749531943189765}
   - component: {fileID: 4245465454825047882}
+  - component: {fileID: 4583794825049526685}
   m_Layer: 5
   m_Name: Feature 2
   m_TagString: Untagged
@@ -5366,3 +5395,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4583794825049526685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9076128691962800268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
