@@ -26,7 +26,7 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySFX(SoundType type)
     {
-        if (type == SoundType.BtnClick) sfxSource.PlayOneShot(btnClick);
+        if (type == SoundType.BtnClick && btnClick != null) sfxSource.PlayOneShot(btnClick);
 
 
     }

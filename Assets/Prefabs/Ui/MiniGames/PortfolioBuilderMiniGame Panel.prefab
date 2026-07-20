@@ -560,6 +560,7 @@ GameObject:
   - component: {fileID: 4634063904692732162}
   - component: {fileID: 5836729743037298400}
   - component: {fileID: 6613159535266791524}
+  - component: {fileID: 1446786760180952549}
   m_Layer: 5
   m_Name: Submit Btn
   m_TagString: Untagged
@@ -681,6 +682,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1446786760180952549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564015408754586782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &584296235494487987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1903,6 +1917,7 @@ GameObject:
   - component: {fileID: 5757345072669322964}
   - component: {fileID: 3209346112515368172}
   - component: {fileID: 7731726225131992570}
+  - component: {fileID: 3477985253304052291}
   m_Layer: 5
   m_Name: Plus Btn
   m_TagString: Untagged
@@ -2023,6 +2038,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &3477985253304052291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321880564196364766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &1490152793640367949
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,6 +2063,7 @@ GameObject:
   - component: {fileID: 8069898277052959767}
   - component: {fileID: 4153018440414367070}
   - component: {fileID: 659766267114895147}
+  - component: {fileID: 1144632082577240746}
   m_Layer: 5
   m_Name: Minus Btn
   m_TagString: Untagged
@@ -2155,6 +2184,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1144632082577240746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490152793640367949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &1601470509141529658
 GameObject:
   m_ObjectHideFlags: 0
@@ -2167,6 +2209,7 @@ GameObject:
   - component: {fileID: 3766720506313949729}
   - component: {fileID: 7493446522900327299}
   - component: {fileID: 1782406081771056415}
+  - component: {fileID: 6737121158810454266}
   m_Layer: 5
   m_Name: Plus Btn
   m_TagString: Untagged
@@ -2287,6 +2330,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &6737121158810454266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601470509141529658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &1642266648014683565
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,7 +2581,19 @@ MonoBehaviour:
   resultTxt: {fileID: 4856432162361390376}
   learningPointTxt: {fileID: 6568678082529435780}
   resultPopup: {fileID: 8098734834683658518}
-  investedAmounts: []
+  investedAmounts:
+  - assetType: 0
+    amount: 0
+  - assetType: 1
+    amount: 0
+  - assetType: 2
+    amount: 0
+  - assetType: 3
+    amount: 0
+  - assetType: 4
+    amount: 0
+  - assetType: 5
+    amount: 0
   lastInvestedAmounts: []
   currentEvent:
     statement: 
@@ -3087,6 +3155,7 @@ GameObject:
   - component: {fileID: 7076401994225798243}
   - component: {fileID: 3612134121863345822}
   - component: {fileID: 5710201217287961232}
+  - component: {fileID: 2484003629609254059}
   m_Layer: 5
   m_Name: Minus Btn
   m_TagString: Untagged
@@ -3207,6 +3276,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2484003629609254059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2397591404163713122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &2412861108816175003
 GameObject:
   m_ObjectHideFlags: 0
@@ -3356,6 +3438,7 @@ GameObject:
   - component: {fileID: 3974243746396992374}
   - component: {fileID: 7415745415930275607}
   - component: {fileID: 5775540307148626686}
+  - component: {fileID: 4430298692566024618}
   m_Layer: 5
   m_Name: Minus Btn
   m_TagString: Untagged
@@ -3476,6 +3559,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4430298692566024618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2492139692503560658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &2595730555504849313
 GameObject:
   m_ObjectHideFlags: 0
@@ -3562,6 +3658,8 @@ GameObject:
   - component: {fileID: 6953789286351653190}
   - component: {fileID: 8691193212560975001}
   - component: {fileID: 3065090215429713185}
+  - component: {fileID: 7216317453615129856}
+  - component: {fileID: 1625472348978327223}
   m_Layer: 5
   m_Name: Bg
   m_TagString: Untagged
@@ -3631,6 +3729,128 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 0.5
+--- !u!114 &7216317453615129856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2648224695530969884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 40306178, guid: aa0b1eebb5db27a419fa4564bbe5c9c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: DOTweenPro.dll::DG.Tweening.DOTweenVisualManager
+  preset: 0
+  onEnableBehaviour: 1
+  onDisableBehaviour: 2
+--- !u!114 &1625472348978327223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2648224695530969884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0390bd8b8ffd640b34fe25065ff1df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp-firstpass::DG.Tweening.DOTweenAnimation
+  updateType: 0
+  isSpeedBased: 0
+  hasOnStart: 0
+  hasOnPlay: 0
+  hasOnUpdate: 0
+  hasOnStepComplete: 0
+  hasOnComplete: 0
+  hasOnTweenCreated: 0
+  hasOnRewind: 0
+  onStart:
+    m_PersistentCalls:
+      m_Calls: []
+  onPlay:
+    m_PersistentCalls:
+      m_Calls: []
+  onUpdate:
+    m_PersistentCalls:
+      m_Calls: []
+  onStepComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  onTweenCreated:
+    m_PersistentCalls:
+      m_Calls: []
+  onRewind:
+    m_PersistentCalls:
+      m_Calls: []
+  targetIsSelf: 1
+  targetGO: {fileID: 0}
+  tweenTargetIsTargetGO: 1
+  delay: 0
+  duration: 0.25
+  easeType: 27
+  easeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  loopType: 1
+  loops: 1
+  id: 
+  isRelative: 0
+  isFrom: 1
+  isIndependentUpdate: 0
+  autoKill: 0
+  autoGenerate: 1
+  isActive: 1
+  isValid: 1
+  target: {fileID: 6953789286351653190}
+  animationType: 5
+  targetType: 11
+  forcedTargetType: 0
+  autoPlay: 0
+  useTargetAsV3: 0
+  endValueFloat: 0.5
+  endValueV3: {x: 0, y: 0, z: 0}
+  endValueV2: {x: 0, y: 0}
+  endValueColor: {r: 1, g: 1, b: 1, a: 1}
+  endValueString: 
+  endValueRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  endValueTransform: {fileID: 0}
+  optionalBool0: 1
+  optionalBool1: 0
+  optionalFloat0: 0
+  optionalInt0: 0
+  optionalRotationMode: 0
+  optionalScrambleMode: 0
+  optionalString: 
 --- !u!1 &2977064072895878733
 GameObject:
   m_ObjectHideFlags: 0
@@ -4054,6 +4274,7 @@ GameObject:
   - component: {fileID: 3279115627705470299}
   - component: {fileID: 2191755221505344700}
   - component: {fileID: 6295781495543594892}
+  - component: {fileID: 4147840031398012059}
   m_Layer: 5
   m_Name: Plus Btn
   m_TagString: Untagged
@@ -4174,6 +4395,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &4147840031398012059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3150676475280527792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &3182751691900859492
 GameObject:
   m_ObjectHideFlags: 0
@@ -4268,6 +4502,7 @@ GameObject:
   - component: {fileID: 2780818232306638173}
   - component: {fileID: 1827781523853150295}
   - component: {fileID: 3844933681324059340}
+  - component: {fileID: 6719304214206841923}
   m_Layer: 5
   m_Name: Plus Btn
   m_TagString: Untagged
@@ -4388,6 +4623,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &6719304214206841923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3186184710553813966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &3654164659067950422
 GameObject:
   m_ObjectHideFlags: 0
@@ -5373,6 +5621,7 @@ GameObject:
   - component: {fileID: 8793695077803875101}
   - component: {fileID: 4786359821839527583}
   - component: {fileID: 2491174659334211675}
+  - component: {fileID: 1737722679348117661}
   m_Layer: 5
   m_Name: Minus Btn
   m_TagString: Untagged
@@ -5493,6 +5742,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1737722679348117661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5025622152371585683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &5430680828478432393
 GameObject:
   m_ObjectHideFlags: 0
@@ -5717,6 +5979,7 @@ GameObject:
   - component: {fileID: 8194062717908427250}
   - component: {fileID: 7407552713281270370}
   - component: {fileID: 7648990861324991406}
+  - component: {fileID: 7730010706001004634}
   m_Layer: 5
   m_Name: Continue Btn
   m_TagString: Untagged
@@ -5838,6 +6101,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7730010706001004634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5784561015338876241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &5914225774045312243
 GameObject:
   m_ObjectHideFlags: 0
@@ -5850,6 +6126,7 @@ GameObject:
   - component: {fileID: 8281637394956497495}
   - component: {fileID: 1143992952357973825}
   - component: {fileID: 7997450854505536300}
+  - component: {fileID: 6644455226371849373}
   m_Layer: 5
   m_Name: Minus Btn
   m_TagString: Untagged
@@ -5970,6 +6247,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6644455226371849373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5914225774045312243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &5936010094091965165
 GameObject:
   m_ObjectHideFlags: 0
@@ -6197,6 +6487,7 @@ GameObject:
   - component: {fileID: 9186630717092321074}
   - component: {fileID: 7737259062206803946}
   - component: {fileID: 456051700879277092}
+  - component: {fileID: 1358950313370133408}
   m_Layer: 5
   m_Name: Plus Btn
   m_TagString: Untagged
@@ -6317,6 +6608,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &1358950313370133408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6362188609477122466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &6383840499441173734
 GameObject:
   m_ObjectHideFlags: 0
@@ -6329,6 +6633,7 @@ GameObject:
   - component: {fileID: 104087147197020361}
   - component: {fileID: 8426128782171893547}
   - component: {fileID: 5919896348997632544}
+  - component: {fileID: 5234213153241406442}
   m_Layer: 5
   m_Name: Plus Btn
   m_TagString: Untagged
@@ -6449,6 +6754,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &5234213153241406442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6383840499441173734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &6820216873748022933
 GameObject:
   m_ObjectHideFlags: 0
@@ -7264,6 +7582,7 @@ GameObject:
   - component: {fileID: 7285560487902201930}
   - component: {fileID: 8743662215383209492}
   - component: {fileID: 5069959760188757779}
+  - component: {fileID: 5072988867841389256}
   m_Layer: 5
   m_Name: Minus Btn
   m_TagString: Untagged
@@ -7384,6 +7703,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5072988867841389256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437344336289255223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &7571948421984172039
 GameObject:
   m_ObjectHideFlags: 0
@@ -7836,6 +8168,7 @@ GameObject:
   - component: {fileID: 430330693877928093}
   - component: {fileID: 1252503254601619141}
   - component: {fileID: 3570436273072430091}
+  - component: {fileID: 6322382587660650057}
   m_Layer: 5
   m_Name: Minus Btn
   m_TagString: Untagged
@@ -7956,6 +8289,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6322382587660650057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7953458831051432078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &8028836599301409191
 GameObject:
   m_ObjectHideFlags: 0
@@ -7968,6 +8314,7 @@ GameObject:
   - component: {fileID: 3868536445605225285}
   - component: {fileID: 3275280349539461627}
   - component: {fileID: 2671423629363162063}
+  - component: {fileID: 6327661148511554473}
   m_Layer: 5
   m_Name: Plus Btn
   m_TagString: Untagged
@@ -8088,6 +8435,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!114 &6327661148511554473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8028836599301409191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
 --- !u!1 &8033066448851807259
 GameObject:
   m_ObjectHideFlags: 0
@@ -8242,7 +8602,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8557149595880142615
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9792,10 +10152,31 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5483311683523015007, guid: a88328820f9b5784ea3879ce8c44b99b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7853540297144005332}
   m_SourcePrefab: {fileID: 100100000, guid: a88328820f9b5784ea3879ce8c44b99b, type: 3}
 --- !u!224 &6105839784342157844 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5483311683523015004, guid: a88328820f9b5784ea3879ce8c44b99b, type: 3}
   m_PrefabInstance: {fileID: 1775805852562361160}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6105839784342157847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5483311683523015007, guid: a88328820f9b5784ea3879ce8c44b99b, type: 3}
+  m_PrefabInstance: {fileID: 1775805852562361160}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7853540297144005332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6105839784342157847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fea643d51549c48a7d41c75bb19c90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UISoundTrigger
+  soundOverride: 2
