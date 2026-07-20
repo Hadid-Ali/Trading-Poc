@@ -15,6 +15,7 @@ public class UiManager : MonoBehaviour
     [SerializeField] GameObject lessonDetailPanel;
     [SerializeField] GameObject miniGamesPanel;
     [SerializeField] GameObject pbGamePanel;
+    [SerializeField] GameObject MarketDetectorGamePanel;
 
     [Header("Buttons")]
     [SerializeField] Button getStartedBtn;
@@ -82,6 +83,10 @@ public class UiManager : MonoBehaviour
     {
         if (v != pbGamePanel.activeInHierarchy) pbGamePanel.SetActive(v);
     }
+    public void ToggleMarketDetectorGamePanel(bool v)
+    {
+        if (v != MarketDetectorGamePanel.activeInHierarchy) MarketDetectorGamePanel.SetActive(v);
+    }
 
     public void ToggleAllPanels(bool v)
     {
@@ -95,6 +100,7 @@ public class UiManager : MonoBehaviour
         ToggleLessonDetailPanel(v);
         ToggleMiniGamesPanel(v);
         TogglePbGamePanel(v);
+        ToggleMarketDetectorGamePanel(v);
     }
 
     public void HideAllPanels(GameObject refGo)
@@ -121,6 +127,7 @@ public class UiManager : MonoBehaviour
         ToggleLessonDetailPanel(false);
         ToggleMiniGamesPanel(false);
         TogglePbGamePanel(false);
+        ToggleMarketDetectorGamePanel(false);
     }
 
     public void ToggleVirtualBalance(bool v)
