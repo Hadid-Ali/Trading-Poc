@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feafc343992274a48a85506b782026b6, type: 3}
+  m_Name: FomoSO 3
+  m_EditorClassIdentifier: Assembly-CSharp::FomoFirewallSO
+  Question: Meme stock trending online.
+  Desc: A famous influencer posted about the stock.No company news has been released.
+  cmt1: Going to the moon!
+  cmt2: Diamond hands!
+  cmt3: Everyone is buying!
+  CorrectOption: 3
+  CorrectWhatHappenDec: The stock crashed after the online hype faded. Ignoring the
+    emotional crowd protected your money.
+  CorrectLesson: Social media trends are not reliable investment signals.
+  WrongWhatHappenDec: You followed the online hype without any fundamental reason.
+    The excitement quickly disappeared and the price fell sharply.
+  WrongLesson: Don't invest based only on internet popularity.
+  CorrectGraph: {fileID: -1518829292023962400, guid: 4e972c269a7657149b80525797004101, type: 3}
+  WrongGraph: {fileID: -3153698903740456764, guid: 4e972c269a7657149b80525797004101, type: 3}

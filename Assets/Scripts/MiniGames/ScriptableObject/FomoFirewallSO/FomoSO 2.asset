@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feafc343992274a48a85506b782026b6, type: 3}
+  m_Name: FomoSO 2
+  m_EditorClassIdentifier: Assembly-CSharp::FomoFirewallSO
+  Question: ' Bitcoin surges 14% today!'
+  Desc: Bitcoin jumped 14% after ETF approval news.Social media is filled with people
+    claiming huge profits.
+  Lesson: Large price moves often pause or pull back.Don't buy simply because everyone
+    else is buying.
+  cmt1: Going to $100k!
+  cmt2: This is just beginning!
+  cmt3: Dont miss out!
+  CorrectOption: 1
+  CorrectWhatHappenDec: Bitcoin pulled back 8% after the initial rally as many traders
+    took profits. Waiting for confirmation helped you avoid buying near the top.
+  CorrectLesson: Bitcoin pulled back 8% after the initial rally as many traders took
+    profits. Waiting for confirmation helped you avoid buying near the top.
+  WrongWhatHappenDec: You reacted to the excitement and entered during a rapid price
+    surge. Soon after, the market pulled back and your position lost value.
+  WrongLesson: Don't chase prices just because everyone else is buying.
+  CorrectGraph: {fileID: -1518829292023962400, guid: 4e972c269a7657149b80525797004101, type: 3}
+  WrongGraph: {fileID: -3153698903740456764, guid: 4e972c269a7657149b80525797004101, type: 3}

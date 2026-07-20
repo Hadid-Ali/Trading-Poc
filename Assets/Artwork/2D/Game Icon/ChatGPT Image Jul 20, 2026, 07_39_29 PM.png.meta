@@ -1,0 +1,449 @@
+fileFormatVersion: 2
+guid: 4e972c269a7657149b80525797004101
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1518829292023962400
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_0
+  - first:
+      213: -3153698903740456764
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_1
+  - first:
+      213: 330658863383069687
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_2
+  - first:
+      213: 7365062330970149934
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_3
+  - first:
+      213: 4817239447420308640
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_4
+  - first:
+      213: -1984294771542752817
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_5
+  - first:
+      213: -3040956320972559938
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_6
+  - first:
+      213: 8891382701044640279
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_7
+  - first:
+      213: -3621383707780800422
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_8
+  - first:
+      213: -2871967776896641266
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_9
+  - first:
+      213: 5872241145189910803
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_10
+  - first:
+      213: 6991772866063326162
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_11
+  - first:
+      213: 3581643825298056650
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_12
+  - first:
+      213: -9114897166098641992
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_13
+  - first:
+      213: 6306518940270187835
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_14
+  - first:
+      213: 574367510112403200
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_15
+  - first:
+      213: 5563930340163857106
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_16
+  - first:
+      213: -3296416921658111388
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_17
+  - first:
+      213: 1677709815907519622
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_18
+  - first:
+      213: -5306358267736369234
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_19
+  - first:
+      213: 7042827414680657558
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_20
+  - first:
+      213: -7642858206682410281
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_21
+  - first:
+      213: 1064727958048176200
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_22
+  - first:
+      213: 7848111288077769237
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_23
+  - first:
+      213: -8248022674173074310
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_24
+  - first:
+      213: 7259149767544316710
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_25
+  - first:
+      213: 1377040768941283965
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_26
+  - first:
+      213: -5666719873611374182
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_27
+  - first:
+      213: -2637002347518178267
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_28
+  - first:
+      213: -639938767441454913
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_29
+  - first:
+      213: -2264492704897509878
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_30
+  - first:
+      213: 4012867580750990353
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_31
+  - first:
+      213: -860848096875735563
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_32
+  - first:
+      213: -952779576004130324
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_33
+  - first:
+      213: -2855312639513812959
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_34
+  - first:
+      213: 1409029108326375895
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_35
+  - first:
+      213: -5195343946927899549
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_36
+  - first:
+      213: -601846041703790151
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_37
+  - first:
+      213: -9070385494346560773
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_38
+  - first:
+      213: 4546431377818153125
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_39
+  - first:
+      213: 4167269158230487289
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_40
+  - first:
+      213: 2332114584699792304
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_41
+  - first:
+      213: -5348589817313018473
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_42
+  - first:
+      213: -9199134886054785121
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_43
+  - first:
+      213: 7509699592349606370
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_44
+  - first:
+      213: 2325875416697981630
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_45
+  - first:
+      213: -3020782690181300184
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_46
+  - first:
+      213: 8064832159553657340
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_47
+  - first:
+      213: -7742928917417212106
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_48
+  - first:
+      213: -4056193067034930641
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_49
+  - first:
+      213: 8495824371285888776
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_50
+  - first:
+      213: -8159470703807510459
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_51
+  - first:
+      213: 1457398887361252374
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_52
+  - first:
+      213: -6949144241237623531
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_53
+  - first:
+      213: -4361559856589910216
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_54
+  - first:
+      213: 4602311723591690497
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_55
+  - first:
+      213: 8831468947828293376
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_56
+  - first:
+      213: 7651978715717797798
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_57
+  - first:
+      213: -169826530390826634
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_58
+  - first:
+      213: 8279289683737528069
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_59
+  - first:
+      213: -7709053450182107758
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_60
+  - first:
+      213: -6465994091233602723
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_61
+  - first:
+      213: -9033477690663600085
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_62
+  - first:
+      213: 6620801673162033277
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_63
+  - first:
+      213: 1889905727560387844
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_64
+  - first:
+      213: -1789092395834930964
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_65
+  - first:
+      213: -837142376416740089
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_66
+  - first:
+      213: -579178401916226376
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_67
+  - first:
+      213: -9030426580659842849
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_68
+  - first:
+      213: 8317749577418125120
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_69
+  - first:
+      213: -2020407906140875371
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_70
+  - first:
+      213: -6430182672460343078
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_71
+  - first:
+      213: 2296780930720667012
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_72
+  - first:
+      213: -4394179213744050193
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_73
+  - first:
+      213: 6751825894772952964
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_74
+  - first:
+      213: 4430367957701362623
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_75
+  - first:
+      213: 5735100592845097173
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_76
+  - first:
+      213: 1277866993475080913
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_77
+  - first:
+      213: 2001926313829391631
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_78
+  - first:
+      213: 7156701356883647474
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_79
+  - first:
+      213: 627869590725890554
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_80
+  - first:
+      213: -2254764731528247226
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_81
+  - first:
+      213: 9055705598461944018
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_82
+  - first:
+      213: -5132122240420109413
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_83
+  - first:
+      213: -3998867269247161570
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_84
+  - first:
+      213: 1116177632332126006
+    second: ChatGPT Image Jul 20, 2026, 07_39_29 PM_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ChatGPT Image Jul 20, 2026, 07_39_29 PM_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 351
+        width: 656
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e424765ec80ceae0800000000000000
+      internalID: -1518829292023962400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image Jul 20, 2026, 07_39_29 PM_1
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 404
+        width: 705
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b582370813f81418bcdb35e8cba97a
+      internalID: -3153698903740456764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 616603d9a86ff854da1a14e87e67c304
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1536.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ChatGPT Image Jul 20, 2026, 07_39_29 PM_0: -1518829292023962400
+      ChatGPT Image Jul 20, 2026, 07_39_29 PM_1: -3153698903740456764
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
