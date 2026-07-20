@@ -41,7 +41,7 @@ public class PortfolioBuilderController : MonoBehaviour
 
     private void Start()
     {
-        BeginGame();
+        //BeginGame();
     }
 
     public void BeginGame()
