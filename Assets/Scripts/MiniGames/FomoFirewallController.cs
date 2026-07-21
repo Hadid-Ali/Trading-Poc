@@ -2,6 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
+using DG.Tweening;
+using Unity.VisualScripting;
 
 public class FomoFirewallController : MonoBehaviour
 {
@@ -37,8 +39,12 @@ public class FomoFirewallController : MonoBehaviour
 
     [Header("Scenario Data")]
     public List<FomoFirewallSO> FOMOScenario = new();
-
+    [SerializeField] RectTransform _optionParent;
+    [SerializeField] GameObject gamecompletepanel;
+    [SerializeField] UiManager uiManager;
     private int currentScenario = 0;
+    private bool continuePressed;
+
 
     private void Start()
     {
@@ -69,6 +75,12 @@ public class FomoFirewallController : MonoBehaviour
         _questionScreen.SetActive(false);
         _optionScreen.SetActive(false);
         _resultPanel.SetActive(false);
+        gamecompletepanel.SetActive(false);
+    }
+    void ShowOption()
+    {
+        _optionParent.localScale = Vector3.zero;
+        _optionParent.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
     }
 
     private void LoadScenario(int index)
@@ -99,6 +111,7 @@ public class FomoFirewallController : MonoBehaviour
     {
         HideAll();
         _optionScreen.SetActive(true);
+        ShowOption();
     }
 
     public void SelectOption(FomoOption selectedOption)
@@ -110,6 +123,7 @@ public class FomoFirewallController : MonoBehaviour
 
         if (selectedOption == scenario.CorrectOption)
         {
+            AudioManager.Instance.PlaySFX(SoundType.Correct);
             _resultTitle.text = "Great Decision!";
             _resultTitle.color = Color.green;
             _happenText.text = scenario.CorrectWhatHappenDec;
@@ -118,6 +132,7 @@ public class FomoFirewallController : MonoBehaviour
         }
         else
         {
+            AudioManager.Instance.PlaySFX(SoundType.Wrong);
             _resultTitle.text = "Think Again!";
             _resultTitle.color = Color.red;
             _happenText.text = scenario.WrongWhatHappenDec;
@@ -125,7 +140,6 @@ public class FomoFirewallController : MonoBehaviour
             _feedbackGraphImage.sprite = scenario.WrongGraph;
         }
     }
-
     private void OnNextScenario()
     {
         currentScenario++;
@@ -133,7 +147,8 @@ public class FomoFirewallController : MonoBehaviour
         if (currentScenario >= FOMOScenario.Count)
         {
             Debug.Log("Game Completed");
-            // Show Complete Panel if you have one
+            AudioManager.Instance.PlaySFX(SoundType.GameComplete);
+            gamecompletepanel.SetActive(true);
             return;
         }
 
@@ -142,6 +157,25 @@ public class FomoFirewallController : MonoBehaviour
         HideAll();
         _questionScreen.SetActive(true);
     }
+    public void OnContinue()
+    {
+        HideAll();
+        ResetGame();
+        uiManager.ToggleAllPanels(false);
+        uiManager.ToggleHomePanel(true);
+        continuePressed = true;
+
+
+    }
+    public void ResetGame()
+    {
+        HideAll();
+        currentScenario = 0;
+        LoadScenario(currentScenario);
+        _introScreen.SetActive(true);
+
+    }
+
 }
 
 public enum FomoOption

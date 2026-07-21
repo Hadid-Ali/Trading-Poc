@@ -270,7 +270,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   sfxSource: {fileID: 230362742}
   bgSource: {fileID: 230362741}
-  btnClick: {fileID: 0}
+  btnClick: {fileID: 8300000, guid: 09b975e48e2403f49bca06442fd7f87a, type: 3}
+  correct: {fileID: 8300000, guid: c26247a9ddaec184cb7960cb930066c2, type: 3}
+  wrong: {fileID: 8300000, guid: f557dff82fd959b49aaaa1bd12c8b312, type: 3}
+  gameComplete: {fileID: 8300000, guid: 6a77239882d696c4e9e1e8460bbc3e77, type: 3}
 --- !u!4 &230362740
 Transform:
   m_ObjectHideFlags: 0
@@ -820,6 +823,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 118515658}
     m_Modifications:
+    - target: {fileID: 3349171175316932722, guid: 67cbc72e1722b5246ac926cfcab259d6, type: 3}
+      propertyPath: uiManager
+      value: 
+      objectReference: {fileID: 1908305685}
     - target: {fileID: 6269578148815203746, guid: 67cbc72e1722b5246ac926cfcab259d6, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -846,11 +853,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6269578148815203746, guid: 67cbc72e1722b5246ac926cfcab259d6, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1080
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6269578148815203746, guid: 67cbc72e1722b5246ac926cfcab259d6, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -1920
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6269578148815203746, guid: 67cbc72e1722b5246ac926cfcab259d6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -882,11 +889,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6269578148815203746, guid: 67cbc72e1722b5246ac926cfcab259d6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -262.38202
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6269578148815203746, guid: 67cbc72e1722b5246ac926cfcab259d6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -151.04749
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6269578148815203746, guid: 67cbc72e1722b5246ac926cfcab259d6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -904,9 +911,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: FomoFirework
       objectReference: {fileID: 0}
-    - target: {fileID: 6937667376810328688, guid: 67cbc72e1722b5246ac926cfcab259d6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 8261633363388389584, guid: 67cbc72e1722b5246ac926cfcab259d6, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261633363388389584, guid: 67cbc72e1722b5246ac926cfcab259d6, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261633363388389584, guid: 67cbc72e1722b5246ac926cfcab259d6, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1805,7 +1820,7 @@ PrefabInstance:
     - target: {fileID: 7939318554854966020, guid: a14ece4a5adf88d40858c333e21881a9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2096902195}
+      objectReference: {fileID: 425591464}
     - target: {fileID: 7939318554854966020, guid: a14ece4a5adf88d40858c333e21881a9, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -2205,6 +2220,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 144208918}
     m_Modifications:
+    - target: {fileID: 216042616722851043, guid: 5f6a54e002d0a6344ba46b4608064243, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -27.43628
+      objectReference: {fileID: 0}
     - target: {fileID: 2502118395642104456, guid: 5f6a54e002d0a6344ba46b4608064243, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3610,6 +3629,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 118515658}
     m_Modifications:
+    - target: {fileID: 172755602027025172, guid: be2d1bd669d7fc24d891c1a8dd0185e7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -3.5625
+      objectReference: {fileID: 0}
     - target: {fileID: 218992320267155427, guid: be2d1bd669d7fc24d891c1a8dd0185e7, type: 3}
       propertyPath: m_SizeDelta.x
       value: -28.588562
@@ -3801,6 +3824,10 @@ PrefabInstance:
     - target: {fileID: 5368368552336530718, guid: be2d1bd669d7fc24d891c1a8dd0185e7, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -650
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953789286351653190, guid: be2d1bd669d7fc24d891c1a8dd0185e7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.18017578
       objectReference: {fileID: 0}
     - target: {fileID: 8382508876112413863, guid: be2d1bd669d7fc24d891c1a8dd0185e7, type: 3}
       propertyPath: m_AnchorMax.y

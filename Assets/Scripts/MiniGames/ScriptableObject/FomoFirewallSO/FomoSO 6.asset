@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feafc343992274a48a85506b782026b6, type: 3}
+  m_Name: FomoSO 6
+  m_EditorClassIdentifier: Assembly-CSharp::FomoFirewallSO
+  Question: Unknown cryptocurrency jumps 70%.
+  Desc: Trading volume suddenly increased.No official announcement exists.
+  cmt1: 100x coin!
+  cmt2: Don't miss the next Bitcoin!
+  cmt3: Last chance!
+  CorrectOption: 3
+  CorrectWhatHappenDec: You ignored the sudden price spike because there was no official
+    news supporting it. Soon after, the cryptocurrency lost most of its gains as
+    early buyers sold their positions.
+  CorrectLesson: If you don't understand why an asset is rising, it's often safer
+    not to invest. Protecting your capital is more important than chasing quick profits.
+  WrongWhatHappenDec: You chased the rapidly rising cryptocurrency without verifying
+    the reason behind the move. The price quickly reversed, leaving late buyers with
+    significant losses.
+  WrongLesson: Large unexplained price increases are often driven by speculation.
+    Never invest based solely on fear of missing out (FOMO).
+  CorrectGraph: {fileID: -1518829292023962400, guid: 4e972c269a7657149b80525797004101, type: 3}
+  WrongGraph: {fileID: -3153698903740456764, guid: 4e972c269a7657149b80525797004101, type: 3}

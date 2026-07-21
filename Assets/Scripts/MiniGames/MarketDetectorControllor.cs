@@ -132,7 +132,8 @@ public class MarketDetectorControllor : MonoBehaviour
         }
         else
         {
-            OnGameComplete();
+            _gamecompletePanel.SetActive(true);
+            AudioManager.Instance.PlaySFX(SoundType.GameComplete);
             Debug.Log("Game Completed");
         }
     }
@@ -149,6 +150,7 @@ public class MarketDetectorControllor : MonoBehaviour
         if (isCorrect)
         {
             //titleText.text = "Correct!";
+            AudioManager.Instance.PlaySFX(SoundType.Correct);
             _resultDes.text = scenario.CorrectDes;
 
             _next.gameObject.SetActive(true);
@@ -157,6 +159,7 @@ public class MarketDetectorControllor : MonoBehaviour
         else
         {
             //titleText.text = "Wrong!";
+            AudioManager.Instance.PlaySFX(SoundType.Wrong);
             _resultDes.text = scenario.WrongDes;
 
             _next.gameObject.SetActive(false);
@@ -191,11 +194,5 @@ public class MarketDetectorControllor : MonoBehaviour
         LoadScenario(currentScenario);
         userPredictions.Clear();
     }
-    void OnGameComplete()
-    {
-        RectTransform rt = _gamecompletePanel.GetComponent<RectTransform>();
-        rt.localScale = Vector3.zero;
-        rt.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
-        _gamecompletePanel.SetActive(true);
-    }
+    
 }

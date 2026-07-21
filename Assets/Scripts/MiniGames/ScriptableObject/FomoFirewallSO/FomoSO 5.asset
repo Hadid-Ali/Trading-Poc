@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feafc343992274a48a85506b782026b6, type: 3}
+  m_Name: FomoSO 5
+  m_EditorClassIdentifier: Assembly-CSharp::FomoFirewallSO
+  Question: Gold reaches a six-month high.
+  Desc: Investors are buying gold due to economic uncertainty.
+  cmt1: Gold never goes down
+  cmt2: Buy before it reaches another record!
+  cmt3: Safe money
+  CorrectOption: 1
+  CorrectWhatHappenDec: You waited for the market to confirm the trend before investing.
+    Gold experienced a short pullback, giving patient investors a better buying opportunity.
+  CorrectLesson: Patience is an important investing skill. Waiting for confirmation
+    can help you avoid buying at temporary price peaks.
+  WrongWhatHappenDec: You bought immediately after seeing gold reach a new high.
+    Shortly afterward, the price pulled back as many investors took profits.
+  WrongLesson: Even strong assets experience temporary declines. Avoid assuming that
+    prices will continue rising without interruption.
+  CorrectGraph: {fileID: -1518829292023962400, guid: 4e972c269a7657149b80525797004101, type: 3}
+  WrongGraph: {fileID: -3153698903740456764, guid: 4e972c269a7657149b80525797004101, type: 3}

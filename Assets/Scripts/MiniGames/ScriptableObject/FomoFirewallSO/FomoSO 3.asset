@@ -23,6 +23,7 @@ MonoBehaviour:
   CorrectLesson: Social media trends are not reliable investment signals.
   WrongWhatHappenDec: You followed the online hype without any fundamental reason.
     The excitement quickly disappeared and the price fell sharply.
-  WrongLesson: Don't invest based only on internet popularity.
+  WrongLesson: Never invest just because everyone else is buying. Popularity and
+    excitement do not guarantee long-term value or future profits.
   CorrectGraph: {fileID: -1518829292023962400, guid: 4e972c269a7657149b80525797004101, type: 3}
   WrongGraph: {fileID: -3153698903740456764, guid: 4e972c269a7657149b80525797004101, type: 3}
