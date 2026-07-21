@@ -18,6 +18,7 @@ public class PortfolioBuilderController : MonoBehaviour
     [SerializeField] TextMeshProUGUI resultTxt;
     [SerializeField] TextMeshProUGUI learningPointTxt;
     [SerializeField] GameObject resultPopup;
+    [SerializeField] GameObject gameCompletePopup;
 
     [SerializeField] List<InvestedAmountMeta> investedAmounts;
     [SerializeField] List<InvestedAmountMeta> lastInvestedAmounts;
@@ -195,6 +196,12 @@ public class PortfolioBuilderController : MonoBehaviour
 
     private void EventsCompleted()
     {
+        gameCompletePopup.SetActive(true);
+    }
+
+    public void OnGameComplete()
+    {
+        gameCompletePopup.SetActive(false);
         uiManager.ToggleAllPanels(false);
         uiManager.ToggleHomePanel(true);
         ResetGame();
