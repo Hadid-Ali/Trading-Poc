@@ -11,9 +11,6 @@ public class UIAnimationUtility : MonoBehaviour
     [SerializeField] private float _timeDuration = 0.025f;
     [SerializeField] private Sprite[] _animationSequenceSprites;
 
-    [Header("Loop Settings")]
-    [SerializeField] private float _delayBetweenLoops = 2f;
-
     private Coroutine _animationCoroutine;
     private WaitForSecondsRealtime _frameDelay;
 
@@ -46,7 +43,7 @@ public class UIAnimationUtility : MonoBehaviour
     public void PlayAnimation()
     {
         StopAnimation();
-        _animationCoroutine = StartCoroutine(LoopAnimationSequence());
+        _animationCoroutine = StartCoroutine(PlayAnimationSequence());
     }
 
     [ContextMenu("Stop Animation")]
@@ -56,18 +53,6 @@ public class UIAnimationUtility : MonoBehaviour
         {
             StopCoroutine(_animationCoroutine);
             _animationCoroutine = null;
-        }
-    }
-
-    private IEnumerator LoopAnimationSequence()
-    {
-        while (true)
-        {
-            yield return PlayAnimationSequence();
-            if(_delayBetweenLoops < 0)
-                yield break;
-
-            yield return new WaitForSeconds(_delayBetweenLoops);
         }
     }
 
@@ -83,5 +68,6 @@ public class UIAnimationUtility : MonoBehaviour
     private void SetImage(Sprite sprite)
     {
         _imageComponent.sprite = sprite;
+        _imageComponent.SetNativeSize();
     }
 }
