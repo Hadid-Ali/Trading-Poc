@@ -4,6 +4,7 @@ using UnityEngine;
 public class HomePanel : MonoBehaviour
 {
    [SerializeField] private GameObject _menu;
+   [SerializeField] private GameObject _marketMenu;
    
    private void OnEnable()
    {
@@ -18,5 +19,6 @@ public class HomePanel : MonoBehaviour
    public void HideMenu()
    {
       _menu.SetActive(false);
+      _marketMenu.SetActive(false);
    }
 }
