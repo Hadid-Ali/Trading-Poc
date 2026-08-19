@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -29,8 +30,7 @@ public class DraftDayController : MonoBehaviour
     private const int DaysPerWeek = 7;
     private const int HappyRankThreshold = 3;
     private const float ConcentrationThreshold = 0.4f;
-    private const float DayTickSeconds = 0.6f;
-    private const float RowMoveSeconds = 0.35f;
+    private const float DayTickSeconds = 1.0f;
 
     [Header("Data")]
     [SerializeField] private DDDraftDaySO data;
@@ -85,7 +85,6 @@ public class DraftDayController : MonoBehaviour
     private readonly List<DDSquadRow> squadRows = new();
     private readonly List<DDLeagueEntry> leagueEntries = new();
     private readonly List<DDRosterEntry> playerRoster = new();
-    private readonly List<Vector2> leagueSlotPositions = new();
 
     private DraftDayPhase phase;
     private DDPoolRow selectedRow;
@@ -178,10 +177,13 @@ public class DraftDayController : MonoBehaviour
     {
         foreach (DDLeagueEntry entry in leagueEntries)
         {
-            if (entry.row != null) Destroy(entry.row.gameObject);
+            if (entry.row != null)
+            {
+                Destroy(entry.row.gameObject);
+            }
         }
+
         leagueEntries.Clear();
-        leagueSlotPositions.Clear();
 
         foreach (DDOpponent opponent in data.opponents)
         {
@@ -200,28 +202,34 @@ public class DraftDayController : MonoBehaviour
             isPlayer = true
         });
 
-        LayoutGroup layoutGroup = leagueContent.GetComponent<LayoutGroup>();
+        VerticalLayoutGroup layoutGroup = leagueContent.GetComponent<VerticalLayoutGroup>();
+
         ContentSizeFitter sizeFitter = leagueContent.GetComponent<ContentSizeFitter>();
-        if (layoutGroup != null) layoutGroup.enabled = true;
-        if (sizeFitter != null) sizeFitter.enabled = true;
+
+        if (layoutGroup != null)
+        {
+            layoutGroup.enabled = true;
+        }
+
+        if (sizeFitter != null)
+        {
+            sizeFitter.enabled = true;
+        }
 
         for (int i = 0; i < leagueEntries.Count; i++)
         {
             DDLeagueRow row = Instantiate(leagueRowPrefab, leagueContent);
+
             row.Bind(leagueEntries[i].displayName, leagueEntries[i].isPlayer);
+
             row.SetRank(i + 1);
             leagueEntries[i].row = row;
         }
 
-        LayoutRebuilder.ForceRebuildLayoutImmediate(leagueContent);
+        Canvas.ForceUpdateCanvases();
 
-        foreach (DDLeagueEntry entry in leagueEntries)
-        {
-            leagueSlotPositions.Add(entry.row.Rect.anchoredPosition);
-        }
-
-        if (layoutGroup != null) layoutGroup.enabled = false;
-        if (sizeFitter != null) sizeFitter.enabled = false;
+        LayoutRebuilder.ForceRebuildLayoutImmediate(leagueContent
+        );
     }
 
     private void OnPoolRowClicked(DDPoolRow row)
@@ -286,11 +294,33 @@ public class DraftDayController : MonoBehaviour
         RefreshRoundLabel();
         RefreshPool();
         ResetPickTimer();
+        PlayNextPickAnimation();
 
         ShowCoach(draftBoardCoach,
             CountCategory(DDAssetCategory.Crypto) > 0 && row.Asset.category == DDAssetCategory.Crypto
                 ? DDCoachSituation.CryptoFilled
                 : DDCoachSituation.ConstraintOpen);
+    }
+
+    private void PlayNextPickAnimation()
+    {
+        for (int i = 0; i < poolRows.Count; i++)
+        {
+            if (poolRows[i].State == DDPoolRowState.Rostered)
+            {
+                continue;
+            }
+
+            poolRows[i].PlayRefreshAnimation(i * 0.025f);
+        }
+
+        RectTransform confirmRect = (RectTransform)confirmPickButton.transform;
+        confirmRect.DOKill();
+        confirmRect.DOPunchScale(Vector3.one * 0.05f, 0.3f, 1, 0.5f);
+
+        RectTransform roundRect = roundText.rectTransform;
+        roundRect.DOKill();
+        roundRect.DOPunchScale(Vector3.one * 0.08f, 0.35f, 1, 0.5f);
     }
 
     private void EnterWeighting()
@@ -369,28 +399,56 @@ public class DraftDayController : MonoBehaviour
         }
 
         phase = DraftDayPhase.Finished;
-        ShowResult();
+        Invoke(nameof(ShowResult), 1.5f);
     }
 
     private void ResolveStandings(int dayCount)
     {
         foreach (DDLeagueEntry entry in leagueEntries)
         {
-            entry.score = DraftDayScoring.CalculateScore(entry.roster, dayCount);
+            entry.score = DraftDayScoring.CalculateScore(
+                entry.roster,
+                dayCount
+            );
         }
 
-        leagueEntries.Sort((a, b) => b.score.CompareTo(a.score));
+        // Day 1 has no usable volatility score yet.
+        // Keep the initial order instead of sorting all zero scores.
+        if (dayCount >= DraftDayScoring.MinimumDaysForScore)
+        {
+            leagueEntries.Sort((left, right) =>
+            {
+                int scoreComparison = right.score.CompareTo(left.score);
+
+                if (scoreComparison != 0)
+                {
+                    return scoreComparison;
+                }
+
+                return string.CompareOrdinal(left.displayName, right.displayName);
+            });
+        }
 
         for (int i = 0; i < leagueEntries.Count; i++)
         {
             DDLeagueEntry entry = leagueEntries[i];
+
             entry.row.SetRank(i + 1);
 
-            if (dayCount < DraftDayScoring.MinimumDaysForScore) entry.row.SetPendingScore();
-            else entry.row.SetScore(entry.score);
+            if (dayCount < DraftDayScoring.MinimumDaysForScore)
+            {
+                entry.row.SetPendingScore();
+            }
+            else
+            {
+                entry.row.SetScore(entry.score);
+            }
 
-            entry.row.MoveToSlot(leagueSlotPositions[i], RowMoveSeconds);
+            entry.row.transform.SetSiblingIndex(i);
         }
+
+        Canvas.ForceUpdateCanvases();
+        LayoutRebuilder.ForceRebuildLayoutImmediate(leagueContent);
     }
 
     private void ShowResult()
@@ -417,17 +475,63 @@ public class DraftDayController : MonoBehaviour
         if (resultText != null)
             resultText.text = $"Rank {rank} of {leagueEntries.Count}\nWeek return {weekReturn:0.0}%   Score {score:0.00}\n" + leagueTableCoach.dialogueText.text;
 
-        resultPopup.SetActive(true);
+        //resultPopup.SetActive(true);
         if (AudioManager.Instance != null) AudioManager.Instance.PlaySFX(SoundType.GameComplete);
     }
 
     /// <summary>Closes the minigame and returns to the home panel.</summary>
     public void ReturnHome()
     {
-        StopWeekRoutine();
-        resultPopup.SetActive(false);
+        ResetGameState();
+
         uiManager.ToggleAllPanels(false);
-        uiManager.ToggleHomePanel(true);
+        uiManager.ToggleMiniGamesPanel(true);
+    }
+
+    /// <summary>Clears all runtime Draft Day data so the next session starts from round one.</summary>
+    private void ResetGameState()
+    {
+        StopWeekRoutine();
+
+        phase = DraftDayPhase.Drafting;
+        selectedRow = null;
+        currentRound = 1;
+        pickTimeRemaining = 0f;
+        isRebalancing = false;
+
+        playerRoster.Clear();
+
+        foreach (DDPoolRow row in poolRows)
+        {
+            if (row != null)
+            {
+                Destroy(row.gameObject);
+            }
+        }
+
+        poolRows.Clear();
+
+        foreach (DDSquadRow row in squadRows)
+        {
+            if (row != null)
+            {
+                Destroy(row.gameObject);
+            }
+        }
+
+        squadRows.Clear();
+
+        foreach (DDLeagueEntry entry in leagueEntries)
+        {
+            if (entry.row != null)
+            {
+                Destroy(entry.row.gameObject);
+            }
+        }
+
+        leagueEntries.Clear();
+
+        resultPopup.SetActive(false);
     }
 
     private void RefreshPool()

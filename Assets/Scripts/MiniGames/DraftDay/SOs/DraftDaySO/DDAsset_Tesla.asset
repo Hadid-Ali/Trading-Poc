@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DDAsset_Tesla
   m_EditorClassIdentifier: Assembly-CSharp::DDAssetSO
   displayName: Tesla
-  category: 0
+  category: 3
   logo: {fileID: 0}
   dailyReturns:
   - 2.67
