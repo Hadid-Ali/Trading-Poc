@@ -37,7 +37,7 @@ public class BlindsideController : MonoBehaviour
 
     [Header("Live UI")]
     [SerializeField] private TMP_Text unrealisedText;
-    [SerializeField] private TMP_Text streakText;      // "STREAK 6"
+   /* [SerializeField] private TMP_Text streakText; */     // "STREAK 6"
     [SerializeField] private TMP_Text countdownText;   // "14 : 02 : 11"
 
     [Header("Reveal Panel")]
@@ -200,7 +200,7 @@ public class BlindsideController : MonoBehaviour
         if (uiManager != null)
         {
             uiManager.ToggleAllPanels(false);
-            uiManager.ToggleHomePanel(true);
+            uiManager.ToggleMiniGamesPanel(true);
         }
     }
 
@@ -279,7 +279,7 @@ public class BlindsideController : MonoBehaviour
         segmentResults.Clear();
 
         UpdatePLUI();
-        UpdateStreakUI(GetDisplayStreak());
+        //UpdateStreakUI(GetDisplayStreak());
 
         DateTime now = DateTime.Now;
         TimeSpan untilReset = now.Date.AddDays(1) - now;
@@ -472,13 +472,13 @@ public class BlindsideController : MonoBehaviour
         unrealisedText.text = FormatPercent(totalPL);
     }
 
-    private void UpdateStreakUI(int streak)
-    {
-        if (streakText == null)
-            return;
+    //private void UpdateStreakUI(int streak)
+    //{
+    //    if (streakText == null)
+    //        return;
 
-        streakText.text = $"STREAK {streak}";
-    }
+    //    streakText.text = $"STREAK {streak}";
+    //}
 
     private static string FormatPercent(float value)
     {
@@ -562,7 +562,7 @@ public class BlindsideController : MonoBehaviour
         float held = GetHeldPercent();
 
         int streak = RegisterPlay(flips, costlyFlips);
-        UpdateStreakUI(streak);
+        //UpdateStreakUI(streak);
 
         Debug.Log(
             $"BLINDSIDE FINISHED\n" +
