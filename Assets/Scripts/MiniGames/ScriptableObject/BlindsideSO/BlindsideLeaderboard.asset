@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d14ed3d328ba6f54b8742999df253b1c, type: 3}
+  m_Name: BlindsideLeaderboard
+  m_EditorClassIdentifier: Assembly-CSharp::BS_LeaderboardDataSO
+  days:
+  - dayName: Monday
+    entries:
+    - playerName: Jake
+      percent: 1.2
+    - playerName: Evan
+      percent: 5.3
+    - playerName: Charlie
+      percent: 4.4
+    - playerName: Jay
+      percent: 2.3
+    - playerName: Max
+      percent: 0.3
+    - playerName: You
+      percent: 0
+  - dayName: Tuesday
+    entries:
+    - playerName: Jake
+      percent: 1.2
+    - playerName: Evan
+      percent: 5.3
+    - playerName: Charlie
+      percent: 4.4
+    - playerName: Jay
+      percent: 2.3
+    - playerName: Max
+      percent: 0.3
+    - playerName: You
+      percent: 0
+  - dayName: Wednesday
+    entries:
+    - playerName: Jake
+      percent: 1.2
+    - playerName: Evan
+      percent: 5.3
+    - playerName: Charlie
+      percent: 4.4
+    - playerName: Jay
+      percent: 2.3
+    - playerName: Max
+      percent: 0.3
+    - playerName: You
+      percent: 0
+  - dayName: Thursday
+    entries:
+    - playerName: Jake
+      percent: 1.2
+    - playerName: Evan
+      percent: 5.3
+    - playerName: Charlie
+      percent: 4.4
+    - playerName: Jay
+      percent: 2.3
+    - playerName: Max
+      percent: 0.3
+    - playerName: You
+      percent: 0
+  - dayName: Friday
+    entries:
+    - playerName: Jake
+      percent: 1.2
+    - playerName: Evan
+      percent: 5.3
+    - playerName: Charlie
+      percent: 4.4
+    - playerName: Jay
+      percent: 2.3
+    - playerName: Max
+      percent: 0.3
+    - playerName: You
+      percent: 0
+  - dayName: Saturday
+    entries:
+    - playerName: Jake
+      percent: 1.2
+    - playerName: Evan
+      percent: 5.3
+    - playerName: Charlie
+      percent: 4.4
+    - playerName: Jay
+      percent: 2.3
+    - playerName: Max
+      percent: 0.3
+    - playerName: You
+      percent: 0
+  - dayName: Sunday
+    entries:
+    - playerName: Jake
+      percent: 1.2
+    - playerName: Evan
+      percent: 5.3
+    - playerName: Charlie
+      percent: 4.4
+    - playerName: Jay
+      percent: 2.3
+    - playerName: Max
+      percent: 0.3
+    - playerName: You
+      percent: 0

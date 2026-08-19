@@ -1,8 +1,9 @@
 using System;
 using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.UI;
 
 /// <summary>
 /// Lives on the parent Blindside panel, NOT on Gameplay. The parent stays
@@ -83,7 +84,12 @@ public class BlindsideController : MonoBehaviour
     {
         get { return PlayerPrefs.GetString(LastPlayedKey, "") == TodayKey; }
     }
-
+    [Header("Tabs")]
+    [SerializeField] private Button liveCallButton;
+    [SerializeField] private Button leaderboardButton;
+ 
+    [SerializeField] private GameObject leaderboardPanel;// reference to the script we made
+    [SerializeField] private BlindsideLeaderboardUI leaderboardUI;
     // =========================================================
     // LIFECYCLE
     // =========================================================
@@ -99,9 +105,14 @@ public class BlindsideController : MonoBehaviour
         if (shortButton != null)
             shortButton.onClick.AddListener(OnShortClicked);
 
+        if (liveCallButton != null)
+            liveCallButton.onClick.AddListener(ShowLiveCallTab);
+
+        if (leaderboardButton != null)
+            leaderboardButton.onClick.AddListener(ShowLeaderboardTab);
+
         StartDay();
     }
-
     /// <summary>
     /// Runs every time the Blindside panel is switched back on from the menu.
     /// </summary>
@@ -125,6 +136,13 @@ public class BlindsideController : MonoBehaviour
         else
             ShowPlayingState();
     }
+
+    private void Awake()
+    {
+        if (leaderboardPanel != null)
+            leaderboardPanel.SetActive(false);
+    }
+    
 
     private void Update()
     {
@@ -189,12 +207,14 @@ public class BlindsideController : MonoBehaviour
     private void ShowPlayingState()
     {
         if (gameplay != null) gameplay.SetActive(true);
+        if (leaderboardPanel != null) leaderboardPanel.SetActive(false);
         if (revealPanel != null) revealPanel.SetActive(false);
     }
 
     private void ShowResultState()
     {
         if (gameplay != null) gameplay.SetActive(false);
+        if (leaderboardPanel != null) leaderboardPanel.SetActive(false);
         if (revealPanel != null) revealPanel.SetActive(true);
     }
 
@@ -581,6 +601,8 @@ public class BlindsideController : MonoBehaviour
 
         if (youText != null)
             youText.text = FormatPercent(totalPL);
+        if (leaderboardUI != null)
+            leaderboardUI.SetYourScore(totalPL);
 
         if (heldText != null)
             heldText.text = FormatPercent(held);
@@ -664,6 +686,27 @@ public class BlindsideController : MonoBehaviour
         PlayerPrefs.Save();
 
         Debug.Log("Blindside progress cleared.");
+    }
+    public void ShowLiveCallTab()
+    {
+        // Leaderboard band karo, purana/aaj wala chart wapas dikhao —
+        // gameFinished decide karega playing dikhana hai ya reveal.
+
+        if (leaderboardPanel != null) leaderboardPanel.SetActive(false);
+        if (gameFinished)
+            ShowResultState();
+        else
+            ShowPlayingState();
+    }
+
+    public void ShowLeaderboardTab()
+    {
+        if (gameplay != null) gameplay.SetActive(false);
+        if (revealPanel != null) revealPanel.SetActive(false);
+        if (leaderboardPanel != null) leaderboardPanel.SetActive(true);
+
+        if (leaderboardUI != null)
+            leaderboardUI.BuildLeaderboard();   // <-- yeh line add karo
     }
 
     private enum DecisionType
