@@ -1,0 +1,194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79e12bb3dde118c44a784d3a41085ee4, type: 3}
+  m_Name: DDDraftDaySO
+  m_EditorClassIdentifier: Assembly-CSharp::DDDraftDaySO
+  pool:
+  - {fileID: 11400000, guid: 35b170bb732636e4a93bfde352666100, type: 2}
+  - {fileID: 11400000, guid: 82957e63f185f05458800c7a94373f33, type: 2}
+  - {fileID: 11400000, guid: 62b8fc56c7d3c3f4086d8ee3f5bc2bf7, type: 2}
+  - {fileID: 11400000, guid: d86c18db2fafe3f42b41ad2262fe886f, type: 2}
+  - {fileID: 11400000, guid: e7aa880c3aab9d64185798dcab73c62a, type: 2}
+  - {fileID: 11400000, guid: 832028307b149c94986c52d464457165, type: 2}
+  - {fileID: 11400000, guid: 53fcb655d494cfd4fa37c116e0b9d8ed, type: 2}
+  - {fileID: 11400000, guid: 3f400028acccbf04d8aa658c27e830f8, type: 2}
+  - {fileID: 11400000, guid: f134fc9fb9627224db1bb49c68d27c08, type: 2}
+  - {fileID: 11400000, guid: dd36b616b238c414fad05af50fc7ca09, type: 2}
+  - {fileID: 11400000, guid: bfcb0248b7925294ea9d0916a057f033, type: 2}
+  rules:
+  - category: 1
+    ruleType: 0
+    amount: 1
+  - category: 2
+    ruleType: 0
+    amount: 1
+  - category: 0
+    ruleType: 1
+    amount: 1
+  opponents:
+  - displayName: Zara H
+    roster:
+    - asset: {fileID: 11400000, guid: 62b8fc56c7d3c3f4086d8ee3f5bc2bf7, type: 2}
+      weight: 25
+    - asset: {fileID: 11400000, guid: f134fc9fb9627224db1bb49c68d27c08, type: 2}
+      weight: 25
+    - asset: {fileID: 11400000, guid: 53fcb655d494cfd4fa37c116e0b9d8ed, type: 2}
+      weight: 20
+    - asset: {fileID: 11400000, guid: d86c18db2fafe3f42b41ad2262fe886f, type: 2}
+      weight: 20
+    - asset: {fileID: 11400000, guid: 35b170bb732636e4a93bfde352666100, type: 2}
+      weight: 10
+  - displayName: Hina M
+    roster:
+    - asset: {fileID: 11400000, guid: f134fc9fb9627224db1bb49c68d27c08, type: 2}
+      weight: 30
+    - asset: {fileID: 11400000, guid: 53fcb655d494cfd4fa37c116e0b9d8ed, type: 2}
+      weight: 30
+    - asset: {fileID: 11400000, guid: 62b8fc56c7d3c3f4086d8ee3f5bc2bf7, type: 2}
+      weight: 25
+    - asset: {fileID: 11400000, guid: 3f400028acccbf04d8aa658c27e830f8, type: 2}
+      weight: 10
+    - asset: {fileID: 11400000, guid: d86c18db2fafe3f42b41ad2262fe886f, type: 2}
+      weight: 5
+  - displayName: Bilal K
+    roster:
+    - asset: {fileID: 11400000, guid: 53fcb655d494cfd4fa37c116e0b9d8ed, type: 2}
+      weight: 25
+    - asset: {fileID: 11400000, guid: d86c18db2fafe3f42b41ad2262fe886f, type: 2}
+      weight: 20
+    - asset: {fileID: 11400000, guid: 832028307b149c94986c52d464457165, type: 2}
+      weight: 20
+    - asset: {fileID: 11400000, guid: dd36b616b238c414fad05af50fc7ca09, type: 2}
+      weight: 20
+    - asset: {fileID: 11400000, guid: 35b170bb732636e4a93bfde352666100, type: 2}
+      weight: 15
+  - displayName: Noor E
+    roster:
+    - asset: {fileID: 11400000, guid: 35b170bb732636e4a93bfde352666100, type: 2}
+      weight: 20
+    - asset: {fileID: 11400000, guid: f134fc9fb9627224db1bb49c68d27c08, type: 2}
+      weight: 30
+    - asset: {fileID: 11400000, guid: 62b8fc56c7d3c3f4086d8ee3f5bc2bf7, type: 2}
+      weight: 30
+    - asset: {fileID: 11400000, guid: 53fcb655d494cfd4fa37c116e0b9d8ed, type: 2}
+      weight: 15
+    - asset: {fileID: 11400000, guid: dd36b616b238c414fad05af50fc7ca09, type: 2}
+      weight: 5
+  - displayName: Faraz A
+    roster:
+    - asset: {fileID: 11400000, guid: 62b8fc56c7d3c3f4086d8ee3f5bc2bf7, type: 2}
+      weight: 35
+    - asset: {fileID: 11400000, guid: 832028307b149c94986c52d464457165, type: 2}
+      weight: 30
+    - asset: {fileID: 11400000, guid: d86c18db2fafe3f42b41ad2262fe886f, type: 2}
+      weight: 25
+    - asset: {fileID: 11400000, guid: 53fcb655d494cfd4fa37c116e0b9d8ed, type: 2}
+      weight: 5
+    - asset: {fileID: 11400000, guid: 35b170bb732636e4a93bfde352666100, type: 2}
+      weight: 5
+  - displayName: Dev P
+    roster:
+    - asset: {fileID: 11400000, guid: 3f400028acccbf04d8aa658c27e830f8, type: 2}
+      weight: 35
+    - asset: {fileID: 11400000, guid: dd36b616b238c414fad05af50fc7ca09, type: 2}
+      weight: 25
+    - asset: {fileID: 11400000, guid: bfcb0248b7925294ea9d0916a057f033, type: 2}
+      weight: 20
+    - asset: {fileID: 11400000, guid: d86c18db2fafe3f42b41ad2262fe886f, type: 2}
+      weight: 15
+    - asset: {fileID: 11400000, guid: 62b8fc56c7d3c3f4086d8ee3f5bc2bf7, type: 2}
+      weight: 5
+  - displayName: Sana J
+    roster:
+    - asset: {fileID: 11400000, guid: bfcb0248b7925294ea9d0916a057f033, type: 2}
+      weight: 45
+    - asset: {fileID: 11400000, guid: 3f400028acccbf04d8aa658c27e830f8, type: 2}
+      weight: 20
+    - asset: {fileID: 11400000, guid: dd36b616b238c414fad05af50fc7ca09, type: 2}
+      weight: 15
+    - asset: {fileID: 11400000, guid: 62b8fc56c7d3c3f4086d8ee3f5bc2bf7, type: 2}
+      weight: 15
+    - asset: {fileID: 11400000, guid: 35b170bb732636e4a93bfde352666100, type: 2}
+      weight: 5
+  - displayName: Ayesha R
+    roster:
+    - asset: {fileID: 11400000, guid: 82957e63f185f05458800c7a94373f33, type: 2}
+      weight: 55
+    - asset: {fileID: 11400000, guid: bfcb0248b7925294ea9d0916a057f033, type: 2}
+      weight: 20
+    - asset: {fileID: 11400000, guid: 3f400028acccbf04d8aa658c27e830f8, type: 2}
+      weight: 15
+    - asset: {fileID: 11400000, guid: e7aa880c3aab9d64185798dcab73c62a, type: 2}
+      weight: 5
+    - asset: {fileID: 11400000, guid: 62b8fc56c7d3c3f4086d8ee3f5bc2bf7, type: 2}
+      weight: 5
+  - displayName: Imran S
+    roster:
+    - asset: {fileID: 11400000, guid: e7aa880c3aab9d64185798dcab73c62a, type: 2}
+      weight: 40
+    - asset: {fileID: 11400000, guid: 832028307b149c94986c52d464457165, type: 2}
+      weight: 20
+    - asset: {fileID: 11400000, guid: d86c18db2fafe3f42b41ad2262fe886f, type: 2}
+      weight: 20
+    - asset: {fileID: 11400000, guid: 53fcb655d494cfd4fa37c116e0b9d8ed, type: 2}
+      weight: 10
+    - asset: {fileID: 11400000, guid: 35b170bb732636e4a93bfde352666100, type: 2}
+      weight: 10
+  playerEntryName: You
+  coachBuckets:
+  - situation: 0
+    mood: 1
+    lines:
+    - You still owe me a commodity. Don't leave it to the last round.
+    - No ETF yet. That's the boring pick that saves your week.
+  - situation: 1
+    mood: 1
+    lines:
+    - That's your one crypto. Spend the rest on things that don't move with it.
+    - Crypto's filled. Now build something around it.
+  - situation: 2
+    mood: 0
+    lines:
+    - "Five names. Now the real decision \u2014 how much of each."
+    - Squad's in. Weights are where the week is won.
+  - situation: 3
+    mood: 0
+    lines:
+    - Now that's a squad. Nothing here can sink you alone.
+    - Spread like that, a bad day is just a bad day.
+  - situation: 4
+    mood: 2
+    lines:
+    - Forty percent on one name? That's not a squad, that's a bet.
+    - You've got five players and you're only really playing one.
+  - situation: 5
+    mood: 0
+    lines:
+    - Told you. Steady wins it.
+    - You didn't chase the big number and you still finished ahead of the ones who
+      did.
+  - situation: 6
+    mood: 1
+    lines:
+    - "Middle of the pack. The shape was close \u2014 the weights weren't."
+    - Not a bad week. Not a memorable one either.
+  - situation: 7
+    mood: 2
+    lines:
+    - You made more money than half this table and still finished behind them. That's
+      the whole lesson.
+    - Big swings, small score. The market noticed.
+  infoDrafting: Scored on return per unit of risk, not raw return.
+  infoPlayingWeek: "Week in progress \u2014 steadier squads climb as the swings even
+    out."
+  infoResolved: You returned {0}% and scored {1}. The top squads returned less and
+    scored more.
