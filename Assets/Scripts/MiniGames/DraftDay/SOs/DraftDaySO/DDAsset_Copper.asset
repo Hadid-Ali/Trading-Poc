@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49da8951d5d3a984e9c70971388e1844, type: 3}
   m_Name: DDAsset_Copper
   m_EditorClassIdentifier: Assembly-CSharp::DDAssetSO
-  displayName: 
-  category: 0
+  displayName: Copper
+  category: 1
   logo: {fileID: 0}
   dailyReturns:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  - -1.1
+  - 2.86
+  - -0.96
+  - 0.46
+  - -1.3
+  - 2.24
+  - -0.24

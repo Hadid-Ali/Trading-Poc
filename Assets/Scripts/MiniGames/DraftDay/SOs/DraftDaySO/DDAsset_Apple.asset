@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49da8951d5d3a984e9c70971388e1844, type: 3}
   m_Name: DDAsset_Apple
   m_EditorClassIdentifier: Assembly-CSharp::DDAssetSO
-  displayName: 
-  category: 0
+  displayName: Apple
+  category: 3
   logo: {fileID: 0}
   dailyReturns:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  - 1.95
+  - -0.38
+  - 0.52
+  - -0.85
+  - 1.83
+  - -1.41
+  - 0.44

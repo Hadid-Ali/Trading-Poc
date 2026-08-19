@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49da8951d5d3a984e9c70971388e1844, type: 3}
   m_Name: DDAsset_Tesla
   m_EditorClassIdentifier: Assembly-CSharp::DDAssetSO
-  displayName: 
+  displayName: Tesla
   category: 0
   logo: {fileID: 0}
   dailyReturns:
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
-  - 0
+  - 2.67
+  - 4.49
+  - -1.33
+  - -3.27
+  - -3.09
+  - 2.83
+  - 0.85
