@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c85997e9541789b419c77a87f64cd8b4, type: 3}
+  m_Name: BlindsideWeek
+  m_EditorClassIdentifier: Assembly-CSharp::BlindsideWeekDataSO
+  weekNumber: 1
+  days:
+  - dayName: Monday
+    chartId: 1
+    chartPrefab: {fileID: 8453870848913703431, guid: b67748339c7cc4c4f9656aedb73fe96f, type: 3}
+    startingVisibleCandles: 8
+    decisions:
+    - currentPrice: 100
+      nextPrice: 103
+    - currentPrice: 103
+      nextPrice: 101
+    - currentPrice: 101
+      nextPrice: 105
+    - currentPrice: 105
+      nextPrice: 102
+    - currentPrice: 102
+      nextPrice: 108
+    reveal:
+      asset: Brent crude
+      timeframe: DAILY
+      period: NOVEMBER 2022
+      headline: A supply shock repriced the barrel in nine sessions.
+      heldPercent: 8
+      overrideHeld: 0
+  - dayName: Tuesday
+    chartId: 1
+    chartPrefab: {fileID: 8453870848913703431, guid: a812ab3856c9ae14badafbdda3eb6dfc, type: 3}
+    startingVisibleCandles: 8
+    decisions:
+    - currentPrice: 100
+      nextPrice: 96.4
+    - currentPrice: 96.4
+      nextPrice: 88.2
+    - currentPrice: 88.2
+      nextPrice: 85.7
+    - currentPrice: 85.7
+      nextPrice: 87.21
+    - currentPrice: 87.21
+      nextPrice: 82.9
+    reveal:
+      asset: Bitcoin
+      timeframe: DAILY
+      period: MARCH 2022
+      headline: An exchange failed and took the market down with it.
+      heldPercent: -17.099998
+      overrideHeld: 0
+  - dayName: Wednesday
+    chartId: 1
+    chartPrefab: {fileID: 8453870848913703431, guid: 777ef35ed08f9f449bdee8354e6951b3, type: 3}
+    startingVisibleCandles: 8
+    decisions:
+    - currentPrice: 100
+      nextPrice: 103
+    - currentPrice: 103
+      nextPrice: 97.6
+    - currentPrice: 97.6
+      nextPrice: 101.4
+    - currentPrice: 101
+      nextPrice: 96.8
+    - currentPrice: 96.8
+      nextPrice: 114.3
+    reveal:
+      asset: Gold
+      timeframe: DAILY
+      period: MARCH 2020
+      headline: Even the safe haven was sold to cover losses elsewhere.
+      heldPercent: 14.300003
+      overrideHeld: 0
+  - dayName: Thursday
+    chartId: 1
+    chartPrefab: {fileID: 8453870848913703431, guid: 25df90916f3868d4d8230af00061ca1f, type: 3}
+    startingVisibleCandles: 8
+    decisions:
+    - currentPrice: 100
+      nextPrice: 101.4
+    - currentPrice: 101.4
+      nextPrice: 100.2
+    - currentPrice: 100.2
+      nextPrice: 113.6
+    - currentPrice: 113.6
+      nextPrice: 116.9
+    - currentPrice: 116.9
+      nextPrice: 114.3
+    reveal:
+      asset: Dutch TTF natural gas
+      timeframe: DAILY
+      period: OCTOBER 2022
+      headline: Quiet for two sessions, then a pipeline headline gapped it.
+      heldPercent: 14.300003
+      overrideHeld: 0
+  - dayName: Friday
+    chartId: 1
+    chartPrefab: {fileID: 8453870848913703431, guid: 80ee5878db2a2b94fb7f3455c3a8591e, type: 3}
+    startingVisibleCandles: 8
+    decisions:
+    - currentPrice: 100
+      nextPrice: 100.9
+    - currentPrice: 100.9
+      nextPrice: 101.7
+    - currentPrice: 101.7
+      nextPrice: 102.4
+    - currentPrice: 102.4
+      nextPrice: 103.1
+    - currentPrice: 103.1
+      nextPrice: 103.8
+    reveal:
+      asset: S&P 500
+      timeframe: DAILY
+      period: AUGUST 2022
+      headline: No drama. Just five sessions of quiet accumulation.
+      heldPercent: 3.800003
+      overrideHeld: 0
+  - dayName: Saturday
+    chartId: 1
+    chartPrefab: {fileID: 8453870848913703431, guid: 9eeb4c379963f8142998313affe49b62, type: 3}
+    startingVisibleCandles: 8
+    decisions:
+    - currentPrice: 100
+      nextPrice: 118.5
+    - currentPrice: 118.5
+      nextPrice: 142.3
+    - currentPrice: 142.3
+      nextPrice: 128.7
+    - currentPrice: 128.7
+      nextPrice: 96.4
+    - currentPrice: 96.4
+      nextPrice: 88.2
+    reveal:
+      asset: GameStop
+      timeframe: DAILY
+      period: JUNE 2019
+      headline: It went vertical, then gave it all back and more.
+      heldPercent: -11.800003
+      overrideHeld: 0
+  - dayName: Sunday
+    chartId: 1
+    chartPrefab: {fileID: 8453870848913703431, guid: ed5ac833d8abeaf4192977eb4f003026, type: 3}
+    startingVisibleCandles: 8
+    decisions:
+    - currentPrice: 100
+      nextPrice: 93.8
+    - currentPrice: 93.8
+      nextPrice: 89.1
+    - currentPrice: 89.1
+      nextPrice: 92.6
+    - currentPrice: 92.6
+      nextPrice: 97.4
+    - currentPrice: 97.4
+      nextPrice: 99.5
+    reveal:
+      asset: Nasdaq 100
+      timeframe: DAILY
+      period: JANUARY 2024
+      headline: A crash that finished almost exactly where it started.
+      heldPercent: -0.5
+      overrideHeld: 0
