@@ -19,6 +19,7 @@ public class UiManager : MonoBehaviour
     [SerializeField] GameObject FOMOGamePanel;
     [SerializeField] GameObject BlindSidePanel;
     [SerializeField] GameObject DraftDayPanel;
+    [SerializeField] GameObject RiskSizinPanel;
 
 
     [Header("Buttons")]
@@ -106,6 +107,13 @@ public class UiManager : MonoBehaviour
             DraftDayPanel.SetActive(value);
         }
     }
+    public void ToggleRiskSizingGamePanel(bool value)
+    {
+        if (RiskSizinPanel.activeInHierarchy != value)
+        {
+            RiskSizinPanel.SetActive(value);
+        }
+    }
 
     public void ToggleAllPanels(bool v)
     {
@@ -123,6 +131,7 @@ public class UiManager : MonoBehaviour
         ToggleFOMOGamePanel(v);
         ToggleBlindSidePanel(v);
         ToggleDraftDayGamePanel(v);
+        ToggleRiskSizingGamePanel(v);
     }
 
     public void HideAllPanels(GameObject refGo)
@@ -153,6 +162,7 @@ public class UiManager : MonoBehaviour
         ToggleFOMOGamePanel(false);
         ToggleBlindSidePanel(false);
         ToggleBlindSidePanel(false);
+        ToggleRiskSizingGamePanel(false);
     }
 
     public void ToggleVirtualBalance(bool v)
