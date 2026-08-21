@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32ef3490940fba45a574577032e5f50, type: 3}
+  m_Name: HeadlineData 2
+  m_EditorClassIdentifier: Assembly-CSharp::HeadlineDataSO
+  headline: Central bank unexpectedly cuts interest rates
+  description: The central bank cuts interest rates earlier than expected, encouraging
+    borrowing and increasing expectations for economic growth.
+  availableAssets: 000000000100000002000000030000000400000005000000
+  correctAsset: 1
+  actualMovement: 1.8
+  crowdResults:
+  - label: Bank Index Up
+    percentage: 58
+  - label: Tech ETE Up
+    percentage: 27
+  - label: Flat
+    percentage: 15

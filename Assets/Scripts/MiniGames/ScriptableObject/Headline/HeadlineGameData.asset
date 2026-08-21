@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e26f76dd5bddd64cb173b1db2d5a753, type: 3}
+  m_Name: HeadlineGameData
+  m_EditorClassIdentifier: Assembly-CSharp::HeadlineGameDataSO
+  headlines:
+  - {fileID: 11400000, guid: 8d38da5c7d4f7034aa072bae1564693c, type: 2}
+  - {fileID: 11400000, guid: 91ca1f4e9d1480749ae0f6e02c97c3ef, type: 2}
+  - {fileID: 11400000, guid: 5588f1d6b877ef249b88472a67216b8c, type: 2}
+  - {fileID: 11400000, guid: c2eceb15d0661ff4f8d84e52a8bc197f, type: 2}
+  - {fileID: 11400000, guid: d7c5ca573e337bc4db47ee153704e762, type: 2}
+  - {fileID: 11400000, guid: aece5f532cba17445b71e6ccc8ca8719, type: 2}
+  - {fileID: 11400000, guid: 83eddca1a5dfec74d8683499689346fd, type: 2}
