@@ -1,5 +1,6 @@
 using System;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -1338,12 +1339,14 @@ public class HeadlineController : MonoBehaviour
             if (happyAvatar != null)
                 resultAvatar.sprite =
                     happyAvatar;
+            AudioManager.Instance.PlaySFX(SoundType.Correct);
         }
         else
         {
             if (sadAvatar != null)
                 resultAvatar.sprite =
                     sadAvatar;
+            AudioManager.Instance.PlaySFX(SoundType.Wrong);
         }
     }
 
@@ -1527,9 +1530,7 @@ public class HeadlineController : MonoBehaviour
     }
     public void BackToMenu()
     {
-        headlineScreen.SetActive(false); 
-        predictionScreen.SetActive(false); 
-        resultScreen.SetActive(false);
+
 
         if (uiManager != null)
         {

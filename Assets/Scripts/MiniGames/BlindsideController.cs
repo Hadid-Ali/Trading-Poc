@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
@@ -560,6 +561,13 @@ public class BlindsideController : MonoBehaviour
         }
 
         float held = GetHeldPercent();
+        if (AudioManager.Instance != null)
+        {
+            if (totalPL >= held)
+                AudioManager.Instance.PlaySFX(SoundType.Correct);
+            else
+                AudioManager.Instance.PlaySFX(SoundType.Wrong);
+        }
 
         int streak = RegisterPlay(flips, costlyFlips);
         //UpdateStreakUI(streak);
