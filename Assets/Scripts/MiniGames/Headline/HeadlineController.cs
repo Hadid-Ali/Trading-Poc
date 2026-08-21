@@ -89,6 +89,7 @@ public class HeadlineController : MonoBehaviour
 
     [Header("Prediction UI")]
     [SerializeField] private TMP_Text selectedAssetText;
+    [SerializeField] private TMP_Text predictionDialogueText;
 
     // =========================================================
     // DIRECTION BUTTONS
@@ -457,6 +458,8 @@ public class HeadlineController : MonoBehaviour
             selectedAssetText.text =
                 GetAssetDisplayName(selectedAsset);
         }
+
+        UpdateMagnitudeDialogue();
     }
 
     // =========================================================
@@ -736,6 +739,10 @@ public class HeadlineController : MonoBehaviour
         if (selectedAssetText != null)
             selectedAssetText.text = "SELECT ASSET";
 
+        if (predictionDialogueText != null)
+            predictionDialogueText.text =
+                "How big do you think the move will be?";
+
         if (lockCallButton != null)
             lockCallButton.interactable = false;
 
@@ -920,7 +927,43 @@ public class HeadlineController : MonoBehaviour
             Magnitude.Over3Percent
         );
 
+        UpdateMagnitudeDialogue();
         CheckLockButton();
+    }
+
+    // =========================================================
+    // MAGNITUDE DIALOGUE
+    // =========================================================
+
+    private void UpdateMagnitudeDialogue()
+    {
+        if (predictionDialogueText == null)
+            return;
+
+        if (!magnitudeSelected)
+        {
+            predictionDialogueText.text =
+                "How big do you think the move will be?";
+            return;
+        }
+
+        switch (selectedMagnitude)
+        {
+            case Magnitude.Under1Percent:
+                predictionDialogueText.text =
+                    "I think it will move less than 1%.";
+                break;
+
+            case Magnitude.OneToThreePercent:
+                predictionDialogueText.text =
+                    "I think it will move between 1% and 3%.";
+                break;
+
+            case Magnitude.Over3Percent:
+                predictionDialogueText.text =
+                    "I think it will move more than 3%.";
+                break;
+        }
     }
 
     // =========================================================
