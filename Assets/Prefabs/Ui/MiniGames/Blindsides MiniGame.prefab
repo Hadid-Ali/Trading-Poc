@@ -1028,7 +1028,7 @@ GameObject:
   - component: {fileID: 3161564963854657874}
   - component: {fileID: 6413668958723480210}
   m_Layer: 5
-  m_Name: Blindsides
+  m_Name: Blindsides MiniGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -8588,7 +8588,7 @@ GameObject:
   - component: {fileID: 7283207693652664219}
   - component: {fileID: 5936444424769958319}
   m_Layer: 5
-  m_Name: '55_45-Risk Sizing '
+  m_Name: 55_45-Risk Sizing MiniGame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
