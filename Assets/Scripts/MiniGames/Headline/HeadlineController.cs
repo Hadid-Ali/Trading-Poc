@@ -1,6 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class HeadlineController : MonoBehaviour
@@ -185,6 +186,8 @@ public class HeadlineController : MonoBehaviour
     private bool assetSelected;
     private bool directionSelected;
     private bool magnitudeSelected;
+
+    [SerializeField] private UiManager uiManager;
 
     // =========================================================
     // START
@@ -1522,7 +1525,18 @@ public class HeadlineController : MonoBehaviour
 
         return "";
     }
+    public void BackToMenu()
+    {
+        headlineScreen.SetActive(false); 
+        predictionScreen.SetActive(false); 
+        resultScreen.SetActive(false);
 
+        if (uiManager != null)
+        {
+            uiManager.ToggleAllPanels(false);
+            uiManager.ToggleMiniGamesPanel(true);
+        }
+    }
     // =========================================================
     // NEXT HEADLINE
     // =========================================================
