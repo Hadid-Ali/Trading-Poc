@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3c61ec2ffd40d94ebf8f9868fa7e135, type: 3}
+  m_Name: SpreadGameData
+  m_EditorClassIdentifier: Assembly-CSharp::SpreadGameDataSO
+  levels:
+  - levelNumber: 1
+    levelName: Market Basics
+    target:
+      side: 0
+      quantity: 500
+      targetPrice: 42.2
+    availableOrderTypes: 00000000
+    sellers:
+    - price: 42.19
+      quantity: 310
+    - price: 42.24
+      quantity: 60
+    - price: 42.31
+      quantity: 14
+    buyers:
+    - price: 42.12
+      quantity: 220
+    - price: 42.05
+      quantity: 480
+    benchmarkPrice: 42.19
+    scoring:
+      excellentThreshold: 0.02
+      goodThreshold: 0.05
+      averageThreshold: 0.1
+  - levelNumber: 2
+    levelName: Limit Basics
+    target:
+      side: 0
+      quantity: 500
+      targetPrice: 50.2
+    availableOrderTypes: 01000000
+    sellers:
+    - price: 50.19
+      quantity: 220
+    - price: 50.24
+      quantity: 180
+    - price: 50.31
+      quantity: 300
+    buyers:
+    - price: 50.12
+      quantity: 250
+    - price: 50.05
+      quantity: 45
+    benchmarkPrice: 50.19
+    scoring:
+      excellentThreshold: 0.02
+      goodThreshold: 0.05
+      averageThreshold: 0.1
+  - levelNumber: 3
+    levelName: Stop
+    target:
+      side: 0
+      quantity: 400
+      targetPrice: 60.3
+    availableOrderTypes: 02000000
+    sellers:
+    - price: 60.31
+      quantity: 180
+    - price: 60.35
+      quantity: 120
+    - price: 60.42
+      quantity: 200
+    buyers:
+    - price: 60.24
+      quantity: 200
+    - price: 60.18
+      quantity: 350
+    benchmarkPrice: 60.3
+    scoring:
+      excellentThreshold: 0.03
+      goodThreshold: 0.06
+      averageThreshold: 0.12
