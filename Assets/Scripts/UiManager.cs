@@ -6,6 +6,7 @@ public class UiManager : MonoBehaviour
 {
     [Header("Panels")]
     [SerializeField] GameObject loadingPanel;
+    [SerializeField] GameObject missionsPanel;
     [SerializeField] GameObject getStartedPanel;
     [SerializeField] GameObject homePanel;
     [SerializeField] GameObject portfolioPanel;
@@ -125,6 +126,7 @@ public class UiManager : MonoBehaviour
 
     public void ToggleAllPanels(bool v)
     {
+        missionsPanel.SetActive(v);
         ToggleLoadingPanel(v);
         ToggleGetStartedPanel(v);
         ToggleHomePanel(v);
@@ -157,6 +159,8 @@ public class UiManager : MonoBehaviour
             refGo == miniGamesPanel && miniGamesPanel.activeInHierarchy)
             return;
 
+        
+        missionsPanel.SetActive(false);
         ToggleLoadingPanel(false);
         ToggleGetStartedPanel(false);
         ToggleHomePanel(false);

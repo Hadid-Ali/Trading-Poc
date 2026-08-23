@@ -525,9 +525,9 @@ RectTransform:
   - {fileID: 5728280568181375552}
   m_Father: {fileID: 579319512806019938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 518.4254, y: -2074.4832}
   m_SizeDelta: {x: 984.1114, y: 292.9974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2985012736108549509
@@ -1771,9 +1771,9 @@ RectTransform:
   - {fileID: 1138432100665998355}
   m_Father: {fileID: 579319512806019938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 518.4254, y: -1756.4857}
   m_SizeDelta: {x: 984.1114, y: 292.9974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4894425313988243474
@@ -2334,9 +2334,9 @@ RectTransform:
   - {fileID: 2025593442780601662}
   m_Father: {fileID: 579319512806019938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 518.4254, y: -484.4961}
   m_SizeDelta: {x: 984.1114, y: 292.9974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2422963524057384461
@@ -2710,9 +2710,9 @@ RectTransform:
   - {fileID: 167654622343080697}
   m_Father: {fileID: 579319512806019938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 518.4254, y: -1120.4908}
   m_SizeDelta: {x: 984.1114, y: 292.9974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1011766855114080436
@@ -2841,7 +2841,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7954893072170726532
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3965,9 +3965,9 @@ RectTransform:
   - {fileID: 4209982189662730292}
   m_Father: {fileID: 579319512806019938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 518.4254, y: -1438.4883}
   m_SizeDelta: {x: 984.1114, y: 292.9974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3039259769007255001
@@ -4115,9 +4115,9 @@ RectTransform:
   - {fileID: 517944091625019204}
   m_Father: {fileID: 579319512806019938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 518.4254, y: -166.4987}
   m_SizeDelta: {x: 984.1114, y: 292.9974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2807826844362096247
@@ -4651,9 +4651,9 @@ RectTransform:
   - {fileID: 5505272394102704847}
   m_Father: {fileID: 579319512806019938}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 518.4254, y: -802.4935}
   m_SizeDelta: {x: 984.1114, y: 292.9974}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6647617306759610347
@@ -5008,16 +5008,16 @@ RectTransform:
   - {fileID: 3211419604322809778}
   - {fileID: 5330924246693126625}
   - {fileID: 3005672618417701637}
+  - {fileID: 5185675632020439953}
   - {fileID: 1640352634951224626}
   - {fileID: 3732033846434063043}
-  - {fileID: 5185675632020439953}
   - {fileID: 6103643424301998980}
   m_Father: {fileID: 949469991278700919}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 2260.982}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &7095066811980396072
 MonoBehaviour:
