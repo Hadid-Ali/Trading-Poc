@@ -19,7 +19,7 @@ MonoBehaviour:
       side: 0
       quantity: 500
       targetPrice: 42.2
-    availableOrderTypes: 00000000
+    correctOrderType: 0
     sellers:
     - price: 42.19
       quantity: 310
@@ -43,7 +43,7 @@ MonoBehaviour:
       side: 0
       quantity: 500
       targetPrice: 50.2
-    availableOrderTypes: 01000000
+    correctOrderType: 1
     sellers:
     - price: 50.19
       quantity: 220
@@ -67,7 +67,7 @@ MonoBehaviour:
       side: 0
       quantity: 400
       targetPrice: 60.3
-    availableOrderTypes: 02000000
+    correctOrderType: 2
     sellers:
     - price: 60.31
       quantity: 180
@@ -85,3 +85,99 @@ MonoBehaviour:
       excellentThreshold: 0.03
       goodThreshold: 0.06
       averageThreshold: 0.12
+  - levelNumber: 4
+    levelName: Stop
+    target:
+      side: 0
+      quantity: 500
+      targetPrice: 72.35
+    correctOrderType: 2
+    sellers:
+    - price: 72.31
+      quantity: 200
+    - price: 72.34
+      quantity: 170
+    - price: 72.4
+      quantity: 250
+    buyers:
+    - price: 72.21
+      quantity: 240
+    - price: 72.18
+      quantity: 400
+    benchmarkPrice: 72.31
+    scoring:
+      excellentThreshold: 0.02
+      goodThreshold: 0.05
+      averageThreshold: 0.1
+  - levelNumber: 5
+    levelName: Thin book
+    target:
+      side: 0
+      quantity: 500
+      targetPrice: 85.2
+    correctOrderType: 0
+    sellers:
+    - price: 85.18
+      quantity: 100
+    - price: 85.24
+      quantity: 80
+    - price: 85.31
+      quantity: 120
+    buyers:
+    - price: 85.1
+      quantity: 90
+    - price: 85.02
+      quantity: 150
+    benchmarkPrice: 85.18
+    scoring:
+      excellentThreshold: 0.03
+      goodThreshold: 0.07
+      averageThreshold: 0.15
+  - levelNumber: 6
+    levelName: Stop
+    target:
+      side: 1
+      quantity: 500
+      targetPrice: 91
+    correctOrderType: 1
+    sellers:
+    - price: 91.08
+      quantity: 120
+    - price: 91.15
+      quantity: 180
+    - price: 91.24
+      quantity: 250
+    buyers:
+    - price: 91
+      quantity: 200
+    - price: 90.94
+      quantity: 180
+    benchmarkPrice: 91
+    scoring:
+      excellentThreshold: 0.03
+      goodThreshold: 0.08
+      averageThreshold: 0.18
+  - levelNumber: 7
+    levelName: Wide S[read
+    target:
+      side: 0
+      quantity: 800
+      targetPrice: 105.5
+    correctOrderType: 1
+    sellers:
+    - price: 105.48
+      quantity: 150
+    - price: 105.6
+      quantity: 120
+    - price: 105.78
+      quantity: 180
+    buyers:
+    - price: 105.2
+      quantity: 120
+    - price: 105.05
+      quantity: 180
+    benchmarkPrice: 105.48
+    scoring:
+      excellentThreshold: 0.04
+      goodThreshold: 0.09
+      averageThreshold: 0.2
