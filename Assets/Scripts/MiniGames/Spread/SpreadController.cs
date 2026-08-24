@@ -717,10 +717,12 @@ public class SpreadController : MonoBehaviour
     // =========================================================
 
     private void ExecuteAgainstBook(
-        List<SpreadOrderBookEntry> book)
+     List<SpreadOrderBookEntry> book)
     {
         int remaining =
             currentData.target.quantity;
+
+        Debug.Log($"Target quantity: {remaining}, side: {currentData.target.side}, book entries: {book.Count}");
 
         for (int i = 0;
              i < book.Count;
@@ -732,17 +734,23 @@ public class SpreadController : MonoBehaviour
             SpreadOrderBookEntry level =
                 book[i];
 
+            Debug.Log($"Level {i}: price={level.price}, qty={level.quantity}");
+
             int fill =
                 Mathf.Min(
                     remaining,
                     level.quantity
                 );
 
+            Debug.Log($"Filling {fill} at price {level.price}");
+
             AddFill(level.price, fill);
 
             level.quantity -= fill;
             remaining -= fill;
         }
+
+        Debug.Log($"Final filledQuantity: {filledQuantity}, remaining unfilled: {remaining}");
     }
 
     // =========================================================
@@ -842,6 +850,14 @@ public class SpreadController : MonoBehaviour
         bool correctChoice =
             selectedOrderType ==
             currentData.correctOrderType;
+        if (correctChoice)
+        {
+            AudioManager.Instance.PlaySFX(SoundType.Correct);
+        }
+        else
+        {
+            AudioManager.Instance.PlaySFX(SoundType.Wrong);
+        }
 
         // =====================================================
         // CORRECT LEVEL PROGRESS
@@ -1315,6 +1331,10 @@ public class SpreadController : MonoBehaviour
                     completedLevels;
             }
         }
+
+        // Reset gameplay state so buttons are
+        // interactable again next time the game opens
+        LoadLevel(currentLevel);
 
         if (uiManager != null)
         {
